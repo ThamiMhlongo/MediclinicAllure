@@ -10,10 +10,7 @@ jobs:
         - name: Cypress run
           uses: cypress-io/github-action@v6
           with:
-            working-directory: allure-cypress-cucumber-master-medic-clinic
-            install-command: npm install
-            build: npm run build
-            start: npm start
+            command: npm run cy:run
         - name: Generate report
           run: cd allure-cypress-cucumber-master-medic-clinic && npm run allure:report
         - name: Upload report
