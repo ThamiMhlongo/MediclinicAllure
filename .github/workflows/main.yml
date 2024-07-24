@@ -6,9 +6,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
         - name: Checkout
-          uses: actions/checkout@v3
+          uses: actions/checkout@v4
         - name: Cypress run
-          uses: cypress-io/github-action@v3
+          uses: cypress-io/github-action@v6
           with:
             working-directory: allure-cypress-cucumber-master-medic-clinic
             install-command: npm install
@@ -17,7 +17,7 @@ jobs:
         - name: Generate report
           run: cd allure-cypress-cucumber-master-medic-clinic && npm run allure:report
         - name: Upload report
-          uses: actions/upload-artifact@v3
+          uses: actions/upload-artifact@v4
           with:
             name: allure-report
             path: allure-cypress-cucumber-master-medic-clinic/allure-report
