@@ -11,8 +11,13 @@ jobs:
           uses: cypress-io/github-action@v6
           with:
             command: npm run cy:run
-        - name: Generate report
-          run: cd allure-cypress-cucumber-master-medic-clinic && npm run allure:report
+
+        - name: Generate Allure Report
+          uses: simple-elf/allure-report-action@master
+          if: always()
+          with:
+            allure_results: allure-results
+
         - name: Upload report
           uses: actions/upload-artifact@v4
           with:
