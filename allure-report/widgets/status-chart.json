@@ -1,0 +1,31 @@
+[ {
+  "uid" : "ff16a76e6b0ea2d7",
+  "name" : "Using the search input with the text \"treatment\" (example #2)",
+  "time" : {
+    "start" : 1721758423861,
+    "stop" : 1721758427827,
+    "duration" : 3966
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6547e5b9a9fc54ab",
+  "name" : "Using the search input with the text \"covid\"",
+  "time" : {
+    "start" : 1721758403592,
+    "stop" : 1721758418558,
+    "duration" : 14966
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5a617acc99e324ff",
+  "name" : "Using the search input with the text \"medic\" (example #1)",
+  "time" : {
+    "start" : 1721758418627,
+    "stop" : 1721758423811,
+    "duration" : 5184
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

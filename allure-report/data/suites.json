@@ -1,0 +1,48 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Search engine on the Mediclinic website",
+    "children" : [ {
+      "name" : "Using the search input with the text \"covid\"",
+      "uid" : "6547e5b9a9fc54ab",
+      "parentUid" : "6b60b4fbcf66693fa073a15ef9f06d1c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1721758403592,
+        "stop" : 1721758418558,
+        "duration" : 14966
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Using the search input with the text \"medic\" (example #1)",
+      "uid" : "5a617acc99e324ff",
+      "parentUid" : "6b60b4fbcf66693fa073a15ef9f06d1c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1721758418627,
+        "stop" : 1721758423811,
+        "duration" : 5184
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Using the search input with the text \"treatment\" (example #2)",
+      "uid" : "ff16a76e6b0ea2d7",
+      "parentUid" : "6b60b4fbcf66693fa073a15ef9f06d1c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1721758423861,
+        "stop" : 1721758427827,
+        "duration" : 3966
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "6b60b4fbcf66693fa073a15ef9f06d1c"
+  } ]
+}

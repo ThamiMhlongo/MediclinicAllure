@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Tue Jul 23 20:13:43 SAST 2024","Tue Jul 23 20:13:47 SAST 2024","3966","","Search engine on the Mediclinic website","","","","Using the search input with the text ""treatment"" (example #2)",""
+"passed","Tue Jul 23 20:13:23 SAST 2024","Tue Jul 23 20:13:38 SAST 2024","14966","","Search engine on the Mediclinic website","","","","Using the search input with the text ""covid""",""
+"passed","Tue Jul 23 20:13:38 SAST 2024","Tue Jul 23 20:13:43 SAST 2024","5184","","Search engine on the Mediclinic website","","","","Using the search input with the text ""medic"" (example #1)",""

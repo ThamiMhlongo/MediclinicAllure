@@ -1,0 +1,30 @@
+{
+  "name": "allure-report-generated-by-github-actions",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "ebazhanov <evg.bazhanov@yahoo.com>",
+  "license": "MIT",
+  "scripts": {
+    "cy:run": "cypress run --env allure=true",
+    "allure:report": "allure generate allure-results --clean -o allure-report",
+    "allure:open": "allure open allure-report",
+    "allure:clear": "rm -r allure-results/ allure-report cypress/screenshots || true",
+    "allure:history": "mv -f allure-report/history allure-results/history && rm -r allure-report || true",
+    "test": "npm run cy:run && npm run allure:report",
+    "pretest": "npm run allure:clear",
+    "posttest": "npm run allure:open"
+  },
+  "devDependencies": {
+    "@cypress/browserify-preprocessor": "latest",
+    "@shelex/cypress-allure-plugin": "latest",
+    "@types/node": "latest",
+    "allure-commandline": "latest",
+    "cypress": "latest",
+    "cypress-cucumber-preprocessor": "latest",
+    "resolve": "latest",
+    "typescript": "latest"
+  },
+  "cypress-cucumber-preprocessor": {
+    "step_definitions": "cypress/integration/**/"
+  }
+}

@@ -1,0 +1,1077 @@
+{
+  "uid" : "ff16a76e6b0ea2d7",
+  "name" : "Using the search input with the text \"treatment\" (example #2)",
+  "fullName" : "Using the search input with the text \"treatment\" (example #2)",
+  "historyId" : "8c1388af485759b93b16bef0973ae201",
+  "time" : {
+    "start" : 1721758423861,
+    "stop" : 1721758427827,
+    "duration" : 3966
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "\"before each\" hook",
+      "time" : {
+        "start" : 1721758423862,
+        "stop" : 1721758423923,
+        "duration" : 61
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Given I go to the Hirslanden page",
+      "time" : {
+        "start" : 1721758423926,
+        "stop" : 1721758424766,
+        "duration" : 840
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "visit /",
+        "time" : {
+          "start" : 1721758423926,
+          "stop" : 1721758424764,
+          "duration" : 838
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "POST https://www.google-analytics.com/g/collect?v=2&tid=G-6YKM6V7B57&gtm=45je47h0v886770859za200zb71385837&_p=1721758422511&gcs=G111&gcd=13n3n3n3n5&npa=0&dma=0&tag_exp=0&gdid=dYWJhMj&cid=1569140154.1721758421&ul=en-gb&sr=1440x900&uaa=&uamb=0&uam=&uap=&uapv=&uaw=0&frm=1&pscdl=noapi&_eu=AEA&_s=2&sid=1721758420&sct=1&seg=1&dl=https%3A%2F%2Fwww.hirslanden.ch%2Fen%2Fcorporate%2Fsearch.html%3Fq%3Dmedic&dr=https%3A%2F%2Fwww.hirslanden.ch%2Fen%2Fcorporate%2Fhome.html%2F&dt=Search%20results%20%7C%20Hirslanden&en=view_search_results&ep.ecd_language=en&ep.ecd_page_type=corporate&ep.search_term=medic&tfd=1917&_z=fetch",
+        "time" : {
+          "start" : 1721758424764,
+          "stop" : 1721758424764,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "POST https://www.google-analytics.com/g/collect?v=2&tid=G-6YKM6V7B57&gtm=45je47h0v886770859za200zb71385837&_p=1721758422511&gcs=G111&gcd=13n3n3n3n5&npa=0&dma=0&tag_exp=0&gdid=dYWJhMj&cid=1569140154.1721758421&ul=en-gb&sr=1440x900&uaa=&uamb=0&uam=&uap=&uapv=&uaw=0&frm=1&pscdl=noapi&_s=3&sid=1721758420&sct=1&seg=1&dl=https%3A%2F%2Fwww.hirslanden.ch%2Fen%2Fcorporate%2Fsearch.html%3Fq%3Dmedic&dr=https%3A%2F%2Fwww.hirslanden.ch%2Fen%2Fcorporate%2Fhome.html%2F&dt=Search%20results%20%7C%20Hirslanden&en=user_engagement&ep.ecd_language=en&ep.ecd_page_type=corporate&_et=1104&tfd=1918&_z=fetch",
+        "time" : {
+          "start" : 1721758424764,
+          "stop" : 1721758424764,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET https://cdn.cookielaw.org/consent/f0b44f76-5685-47c8-a991-246f5e63dfb4/f0b44f76-5685-47c8-a991-246f5e63dfb4.json",
+        "time" : {
+          "start" : 1721758424764,
+          "stop" : 1721758424764,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "uncaught exception ReferenceError: $ is not defined",
+        "time" : {
+          "start" : 1721758424764,
+          "stop" : 1721758424764,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location",
+        "time" : {
+          "start" : 1721758424764,
+          "stop" : 1721758424764,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "get body",
+        "time" : {
+          "start" : 1721758424764,
+          "stop" : 1721758424766,
+          "duration" : 2
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "assert expected **<body.js>** to be **visible**",
+        "time" : {
+          "start" : 1721758424766,
+          "stop" : 1721758424766,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 8,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Given I accept the cookies",
+      "time" : {
+        "start" : 1721758424766,
+        "stop" : 1721758425584,
+        "duration" : 818
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "get #onetrust-accept-btn-handler",
+        "time" : {
+          "start" : 1721758424767,
+          "stop" : 1721758425376,
+          "duration" : 609
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "assert expected **<button#onetrust-accept-btn-handler>** to be **visible**",
+        "time" : {
+          "start" : 1721758425376,
+          "stop" : 1721758425376,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://cdn.cookielaw.org/consent/f0b44f76-5685-47c8-a991-246f5e63dfb4/018e4159-4c06-7f29-9552-b2adf3c46d59/en.json",
+        "time" : {
+          "start" : 1721758425376,
+          "stop" : 1721758425376,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://cdn.cookielaw.org/scripttemplates/202401.2.0/assets/otFloatingRounded.json",
+        "time" : {
+          "start" : 1721758425376,
+          "stop" : 1721758425376,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://cdn.cookielaw.org/scripttemplates/202401.2.0/assets/v2/otPcCenter.json",
+        "time" : {
+          "start" : 1721758425376,
+          "stop" : 1721758425376,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://cdn.cookielaw.org/scripttemplates/202401.2.0/assets/otCommonStyles.css",
+        "time" : {
+          "start" : 1721758425376,
+          "stop" : 1721758425376,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "click",
+        "time" : {
+          "start" : 1721758425376,
+          "stop" : 1721758425580,
+          "duration" : 204
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "post https://privacyportal-de.onetrust.com/request/v1/consentreceipts",
+        "time" : {
+          "start" : 1721758425580,
+          "stop" : 1721758425580,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 8,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Given I fill the search input with the \"treatment\" term on the Search Engine page",
+      "time" : {
+        "start" : 1721758425584,
+        "stop" : 1721758426182,
+        "duration" : 598
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "get .topStage #search",
+        "time" : {
+          "start" : 1721758425584,
+          "stop" : 1721758425596,
+          "duration" : 12
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "assert expected **<input#search.type-ahead-search.search-overlay-input>** to be **visible**",
+        "time" : {
+          "start" : 1721758425596,
+          "stop" : 1721758425596,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "type treatment",
+        "time" : {
+          "start" : 1721758425596,
+          "stop" : 1721758426180,
+          "duration" : 584
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET https://ct.pinterest.com/user/?tid=2612537349035&pd={\"np\":\"gtm\"}&cb=1721758425621&dep=2,PAGE_LOAD",
+        "time" : {
+          "start" : 1721758426179,
+          "stop" : 1721758426179,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET https://ct.pinterest.com/user/?event=pagevisit&ed={\"np\":\"gtm\",\"event_id\":\"e6cca7e0-2f5e-40a9-bc3b-3d00af2853e3\"}&tid=2612537349035&cb=1721758425625&dep=5,EVENT_TAGS_ABSENT",
+        "time" : {
+          "start" : 1721758426179,
+          "stop" : 1721758426179,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "get https://dpm.demdex.net/id?d_visid_ver=5.5.0&d_fieldgroup=MC&d_rtbd=json&d_ver=2&d_orgid=491756B05FB503BE0A495E9F@AdobeOrg&d_nsid=0&ts=1721758425629",
+        "time" : {
+          "start" : 1721758426179,
+          "stop" : 1721758426179,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "POST 204 https://px.ads.linkedin.com/wa/",
+        "time" : {
+          "start" : 1721758426180,
+          "stop" : 1721758426180,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "POST 200 https://privacyportal-de.onetrust.com/request/v1/consentreceipts",
+        "time" : {
+          "start" : 1721758426180,
+          "stop" : 1721758426180,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "POST 204 https://www.google-analytics.com/g/collect?v=2&tid=G-6YKM6V7B57&gtm=45je47h0v886770859z871385837za200zb71385837&_p=1721758424589&gcs=G111&gcd=13n3n3n3n5&npa=0&dma=0&tag_exp=0&gdid=dYWJhMj&cid=1685172955.1721758426&ul=en-gb&sr=1440x900&uaa=&uamb=0&uam=&uap=&uapv=&uaw=0&frm=1&pscdl=noapi&_s=1&sid=1721758425&sct=1&seg=0&dl=https%3A%2F%2Fwww.hirslanden.ch%2Fen%2Fcorporate%2Fhome.html%2F&dr=https%3A%2F%2Fwww.hirslanden.ch%2F__%2F&dt=Hirslanden%20Group%2C%20Switzerland&en=page_view&_fv=1&_nsi=1&_ss=1&ep.ecd_language=en&ep.ecd_page_type=corporate&tfd=964&_z=fetch",
+        "time" : {
+          "start" : 1721758426180,
+          "stop" : 1721758426180,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://ct.pinterest.com/user/?event=pagevisit&ed=%7B%22np%22%3A%22gtm%22%2C%22event_id%22%3A%22e6cca7e0-2f5e-40a9-bc3b-3d00af2853e3%22%7D&tid=2612537349035&cb=1721758425625&dep=5%2CEVENT_TAGS_ABSENT",
+        "time" : {
+          "start" : 1721758426180,
+          "stop" : 1721758426180,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET https://dpm.demdex.net/id?d_visid_ver=5.5.0&d_fieldgroup=MC&d_rtbd=json&d_ver=2&d_orgid=491756B05FB503BE0A495E9F%40AdobeOrg&d_nsid=0&ts=1721758425629",
+        "time" : {
+          "start" : 1721758426180,
+          "stop" : 1721758426180,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://ct.pinterest.com/v3/?tid=2612537349035&pd=%7B%22np%22%3A%22gtm%22%7D&event=init&ad=%7B%22loc%22%3A%22https%3A%2F%2Fwww.hirslanden.ch%2Fen%2Fcorporate%2Fhome.html%2F%22%2C%22ref%22%3A%22https%3A%2F%2Fwww.hirslanden.ch%2F__%2F%22%2C%22if%22%3Atrue%2C%22sh%22%3A900%2C%22sw%22%3A1440%2C%22mh%22%3A%2215f60036%22%2C%22is_eu%22%3Afalse%2C%22epikDataSource%22%3Anull%2C%22derivedEpikDataSource%22%3Anull%2C%22unauthIdDataSource%22%3Anull%2C%22architecture%22%3A%22%22%2C%22model%22%3A%22%22%2C%22platform%22%3A%22%22%2C%22platformVersion%22%3A%22%22%2C%22uaFullVersion%22%3A%22%22%2C%22ecm_enabled%22%3Afalse%7D&cb=1721758425655",
+        "time" : {
+          "start" : 1721758426180,
+          "stop" : 1721758426180,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://tracking.crazyegg.com/clock?t=1&tk=f98466ee5529f56a5dad71b27b1e9f5f&u=904507&s=341445&p=%2Fen%2Fcorporate%2Fhome.html%2F&v=c96fd270dca0275fdd9783ddf9f244698c566b84&f=hirslanden.ch%2Fen%2Fcorporate%2Fhome.html&ul=https%3A%2F%2Fwww.hirslanden.ch%2Fen%2Fcorporate%2Fhome.html%2F",
+        "time" : {
+          "start" : 1721758426180,
+          "stop" : 1721758426180,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://pagestates-tracking.crazyegg.com/healthcheck",
+        "time" : {
+          "start" : 1721758426180,
+          "stop" : 1721758426180,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://assets-tracking.crazyegg.com/healthcheck",
+        "time" : {
+          "start" : 1721758426180,
+          "stop" : 1721758426180,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET https://ct.pinterest.com/v3/?event=pagevisit&ed=%7B%22np%22%3A%22gtm%22%2C%22event_id%22%3A%22e6cca7e0-2f5e-40a9-bc3b-3d00af2853e3%22%7D&tid=2612537349035&cb=1721758425989&dep=5%2CEVENT_TAGS_ABSENT&pd=%7B%22np%22%3A%22gtm%22%7D&ad=%7B%22loc%22%3A%22https%3A%2F%2Fwww.hirslanden.ch%2Fen%2Fcorporate%2Fhome.html%2F%22%2C%22ref%22%3A%22https%3A%2F%2Fwww.hirslanden.ch%2F__%2F%22%2C%22if%22%3Atrue%2C%22sh%22%3A900%2C%22sw%22%3A1440%2C%22mh%22%3A%2215f60036%22%2C%22is_eu%22%3Afalse%2C%22epikDataSource%22%3Anull%2C%22derivedEpikDataSource%22%3Anull%2C%22unauthIdDataSource%22%3Anull%2C%22architecture%22%3A%22%22%2C%22model%22%3A%22%22%2C%22platform%22%3A%22%22%2C%22platformVersion%22%3A%22%22%2C%22uaFullVersion%22%3A%22%22%2C%22ecm_enabled%22%3Afalse%7D",
+        "time" : {
+          "start" : 1721758426180,
+          "stop" : 1721758426180,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 16,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "When I click on the search button on the Search Engine page",
+      "time" : {
+        "start" : 1721758426182,
+        "stop" : 1721758426841,
+        "duration" : 659
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "get .topStage .button-search",
+        "time" : {
+          "start" : 1721758426182,
+          "stop" : 1721758426199,
+          "duration" : 17
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "assert expected **<button.button.button-search>** to be **visible**",
+        "time" : {
+          "start" : 1721758426198,
+          "stop" : 1721758426198,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "click",
+        "time" : {
+          "start" : 1721758426199,
+          "stop" : 1721758426339,
+          "duration" : 140
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "POST https://px.ads.linkedin.com/wa/",
+        "time" : {
+          "start" : 1721758426339,
+          "stop" : 1721758426339,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "form sub --submitting form--",
+        "time" : {
+          "start" : 1721758426339,
+          "stop" : 1721758426339,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "page load --waiting for new page to load--",
+        "time" : {
+          "start" : 1721758426339,
+          "stop" : 1721758426339,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET /en/corporate/_jcr_content.typeahead.json?search=treatment&filters=%5B%7B%22type%22%3A%22AndFilter%22%2C%22startsWith%22%3Afalse%2C%22key%22%3A%22corporate_str%22%2C%22value%22%3A%22%2Fcontent%2Fcorporate%22%7D%5D",
+        "time" : {
+          "start" : 1721758426839,
+          "stop" : 1721758426839,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "POST https://www.google-analytics.com/g/collect?v=2&tid=G-6YKM6V7B57&gtm=45je47h0v886770859za200zb71385837&_p=1721758424589&gcs=G111&gcd=13n3n3n3n5&npa=0&dma=0&tag_exp=0&gdid=dYWJhMj&cid=1685172955.1721758426&ul=en-gb&sr=1440x900&uaa=&uamb=0&uam=&uap=&uapv=&uaw=0&frm=1&pscdl=noapi&_s=2&sid=1721758425&sct=1&seg=0&dl=https%3A%2F%2Fwww.hirslanden.ch%2Fen%2Fcorporate%2Fhome.html%2F&dr=https%3A%2F%2Fwww.hirslanden.ch%2F__%2F&dt=Hirslanden%20Group%2C%20Switzerland&en=user_engagement&ep.ecd_language=en&ep.ecd_page_type=corporate&_et=1131&tfd=2101&_z=fetch",
+        "time" : {
+          "start" : 1721758426839,
+          "stop" : 1721758426839,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "new url https://www.hirslanden.ch/en/corporate/search.html?q=treatment",
+        "time" : {
+          "start" : 1721758426839,
+          "stop" : 1721758426839,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET https://cdn.cookielaw.org/consent/f0b44f76-5685-47c8-a991-246f5e63dfb4/f0b44f76-5685-47c8-a991-246f5e63dfb4.json",
+        "time" : {
+          "start" : 1721758426839,
+          "stop" : 1721758426839,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "get https://dpm.demdex.net/id?d_visid_ver=5.5.0&d_fieldgroup=AAM&d_rtbd=json&d_ver=2&d_orgid=491756B05FB503BE0A495E9F@AdobeOrg&d_nsid=0&d_mid=04847087091512828530788244702045178039&d_blob=RKhpRz8krg2tLO6pguXWp5olkAcUniQYPHaMWWgdJ3xzPWQmdj0y&ts=1721758426741",
+        "time" : {
+          "start" : 1721758426839,
+          "stop" : 1721758426839,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "uncaught exception ReferenceError: $ is not defined",
+        "time" : {
+          "start" : 1721758426839,
+          "stop" : 1721758426839,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location",
+        "time" : {
+          "start" : 1721758426839,
+          "stop" : 1721758426839,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET https://dpm.demdex.net/id?d_visid_ver=5.5.0&d_fieldgroup=AAM&d_rtbd=json&d_ver=2&d_orgid=491756B05FB503BE0A495E9F%40AdobeOrg&d_nsid=0&d_mid=04847087091512828530788244702045178039&d_blob=RKhpRz8krg2tLO6pguXWp5olkAcUniQYPHaMWWgdJ3xzPWQmdj0y&ts=1721758426741",
+        "time" : {
+          "start" : 1721758426839,
+          "stop" : 1721758426840,
+          "duration" : 1
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET https://www.hirslanden.ch/en/corporate/_jcr_content.typeahead.json?search=treatment&filters=[{\"type\":\"AndFilter\",\"startsWith\":false,\"key\":\"corporate_str\",\"value\":\"/content/corporate\"}]",
+        "time" : {
+          "start" : 1721758426840,
+          "stop" : 1721758426840,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 15,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then the text \"treatment\" should be visible on the result page on the Search Engine page",
+      "time" : {
+        "start" : 1721758426841,
+        "stop" : 1721758427826,
+        "duration" : 985
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "get section.search-results",
+        "time" : {
+          "start" : 1721758426842,
+          "stop" : 1721758427813,
+          "duration" : 971
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 /en/corporate/search.search-content.html?q=treatment",
+        "time" : {
+          "start" : 1721758427812,
+          "stop" : 1721758427812,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://cdn.cookielaw.org/consent/f0b44f76-5685-47c8-a991-246f5e63dfb4/018e4159-4c06-7f29-9552-b2adf3c46d59/en.json",
+        "time" : {
+          "start" : 1721758427812,
+          "stop" : 1721758427812,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET https://cdn.cookielaw.org/scripttemplates/202401.2.0/assets/otFloatingRounded.json",
+        "time" : {
+          "start" : 1721758427812,
+          "stop" : 1721758427812,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET https://cdn.cookielaw.org/scripttemplates/202401.2.0/assets/v2/otPcCenter.json",
+        "time" : {
+          "start" : 1721758427812,
+          "stop" : 1721758427812,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET https://cdn.cookielaw.org/scripttemplates/202401.2.0/assets/otCommonStyles.css",
+        "time" : {
+          "start" : 1721758427812,
+          "stop" : 1721758427812,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET https://ct.pinterest.com/user/?tid=2612537349035&pd={\"np\":\"gtm\",\"pin_unauth\":\"dWlkPU1EWm1PR1ZpWkRndE9EVTBNQzAwWmpkbExXRTVaVFF0T0RBMVlXVTRNV05pT1RFdw\"}&cb=1721758427132&dep=2,PAGE_LOAD",
+        "time" : {
+          "start" : 1721758427812,
+          "stop" : 1721758427812,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET https://ct.pinterest.com/user/?event=pagevisit&ed={\"np\":\"gtm\",\"event_id\":\"55a24ed1-ba1a-4d28-8994-107f9fe827bb\"}&tid=2612537349035&cb=1721758427135&dep=5,EVENT_TAGS_ABSENT",
+        "time" : {
+          "start" : 1721758427813,
+          "stop" : 1721758427813,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "POST 204 https://px.ads.linkedin.com/wa/",
+        "time" : {
+          "start" : 1721758427813,
+          "stop" : 1721758427813,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "POST 204 https://www.google-analytics.com/g/collect?v=2&tid=G-6YKM6V7B57&gtm=45je47h0v886770859z871385837za200zb71385837&_p=1721758426703&gcs=G111&gcd=13n3n3n3n5&npa=0&dma=0&tag_exp=0&gdid=dYWJhMj&cid=1685172955.1721758426&ul=en-gb&sr=1440x900&uaa=&uamb=0&uam=&uap=&uapv=&uaw=0&frm=1&pscdl=noapi&_s=1&sid=1721758425&sct=1&seg=1&dl=https%3A%2F%2Fwww.hirslanden.ch%2Fen%2Fcorporate%2Fsearch.html%3Fq%3Dtreatment&dr=https%3A%2F%2Fwww.hirslanden.ch%2Fen%2Fcorporate%2Fhome.html%2F&dt=Search%20results%20%7C%20Hirslanden&en=page_view&ep.ecd_language=en&ep.ecd_page_type=corporate&tfd=736&_z=fetch",
+        "time" : {
+          "start" : 1721758427813,
+          "stop" : 1721758427813,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://ct.pinterest.com/user/?event=pagevisit&ed=%7B%22np%22%3A%22gtm%22%2C%22event_id%22%3A%2255a24ed1-ba1a-4d28-8994-107f9fe827bb%22%7D&tid=2612537349035&cb=1721758427135&dep=5%2CEVENT_TAGS_ABSENT",
+        "time" : {
+          "start" : 1721758427813,
+          "stop" : 1721758427813,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://ct.pinterest.com/v3/?tid=2612537349035&pd=%7B%22np%22%3A%22gtm%22%2C%22pin_unauth%22%3A%22dWlkPU1EWm1PR1ZpWkRndE9EVTBNQzAwWmpkbExXRTVaVFF0T0RBMVlXVTRNV05pT1RFdw%22%7D&event=init&ad=%7B%22loc%22%3A%22https%3A%2F%2Fwww.hirslanden.ch%2Fen%2Fcorporate%2Fsearch.html%3Fq%3Dtreatment%22%2C%22ref%22%3A%22https%3A%2F%2Fwww.hirslanden.ch%2Fen%2Fcorporate%2Fhome.html%2F%22%2C%22if%22%3Atrue%2C%22sh%22%3A900%2C%22sw%22%3A1440%2C%22mh%22%3A%2215f60036%22%2C%22is_eu%22%3Afalse%2C%22epikDataSource%22%3Anull%2C%22derivedEpikDataSource%22%3Anull%2C%22unauthIdDataSource%22%3A%22fpc_ls%22%2C%22architecture%22%3A%22%22%2C%22model%22%3A%22%22%2C%22platform%22%3A%22%22%2C%22platformVersion%22%3A%22%22%2C%22uaFullVersion%22%3A%22%22%2C%22ecm_enabled%22%3Afalse%7D&cb=1721758427156",
+        "time" : {
+          "start" : 1721758427813,
+          "stop" : 1721758427813,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "GET 200 https://ct.pinterest.com/v3/?event=pagevisit&ed=%7B%22np%22%3A%22gtm%22%2C%22event_id%22%3A%2255a24ed1-ba1a-4d28-8994-107f9fe827bb%22%7D&tid=2612537349035&cb=1721758427414&dep=5%2CEVENT_TAGS_ABSENT&pd=%7B%22np%22%3A%22gtm%22%2C%22pin_unauth%22%3A%22dWlkPU1EWm1PR1ZpWkRndE9EVTBNQzAwWmpkbExXRTVaVFF0T0RBMVlXVTRNV05pT1RFdw%22%7D&ad=%7B%22loc%22%3A%22https%3A%2F%2Fwww.hirslanden.ch%2Fen%2Fcorporate%2Fsearch.html%3Fq%3Dtreatment%22%2C%22ref%22%3A%22https%3A%2F%2Fwww.hirslanden.ch%2Fen%2Fcorporate%2Fhome.html%2F%22%2C%22if%22%3Atrue%2C%22sh%22%3A900%2C%22sw%22%3A1440%2C%22mh%22%3A%2215f60036%22%2C%22is_eu%22%3Afalse%2C%22epikDataSource%22%3Anull%2C%22derivedEpikDataSource%22%3Anull%2C%22unauthIdDataSource%22%3A%22fpc_ls%22%2C%22architecture%22%3A%22%22%2C%22model%22%3A%22%22%2C%22platform%22%3A%22%22%2C%22platformVersion%22%3A%22%22%2C%22uaFullVersion%22%3A%22%22%2C%22ecm_enabled%22%3Afalse%7D",
+        "time" : {
+          "start" : 1721758427813,
+          "stop" : 1721758427813,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "assert expected **'\\n\\n        \\n            Did you mean\\n            \\n\\n            \\n        \\n        \\n            \\n                \\n                \\n            \\n            \\n            All 1348\\nDoctors 89\\nService Offerings 171\\nClinics 10\\nCenters 191\\nEvents 4\\nNews & Media 97\\nMedical Knowledge 186\\n\\n        \\n        \\n            \\n    \\n  \\n\\n    \\n    \\n    \\n\\n\\n        \\n            \\n                \\n                    \\n                        \\n                            \\n                                \\n                                    \\n                                        Rezumtm therapy (steam treatment)\\n                                    \\n                                https://www.hirslanden.ch/en/corporate/treatments/rezumtherapie.html\\n                                \\n                                    Rezum steam therapy is an innovative, minimally invasive procedure aimed at treating benign prostate enlargement.\\n                                \\n                            \\n                        \\n\\n                            \\n                                \\n                                    \\n                                        Range of treatment\\n                                    \\n                                https://www.hirslanden.ch/en/klinik-im-park/range-of-treatment.html\\n                                \\n                                    Hirslanden Klinik Im Park offers a broad range of treatments. \\n                                \\n                            \\n                        \\n\\n                            \\n                                \\n                                    \\n                                        Diagnosis and treatment\\n                                    \\n                                https://www.hirslanden.ch/en/clinique-des-grangettes/centres-et-instituts/center-digestive-diseases/diagnosis-treatment.html\\n                                \\n                                    Diagnosis & treatment\\n                                \\n                            \\n                        \\n\\n                            \\n                                \\n                                    \\n                                        Range of treatments | ortho clinic zurich\\n                                    \\n                                https://www.hirslanden.ch/en/klinik-im-park/centers/ortho-clinic-zuerich/range-of-treatments.html\\n                                \\n                                    Many problems can be treated without surgery, i.e. through conservative treatment. If surgical treatment is necessary, nowadays this can normally be arthroscopic or minimally invasive. \\n                                \\n                            \\n                        \\n\\n                            \\n                                \\n                                    \\n                                        Range of treatments for patients | tumour centre hirslanden zurich\\n                                    \\n                                https://www.hirslanden.ch/en/klinik-hirslanden/centers/tumour-centre/range-of-treatments.html\\n                                \\n                                    The Tumour Centre Hirslanden Zurich is a specialist in the field of oncology. We accompany you from diagnosis to aftercare. Find out more.\\n                                \\n                            \\n                        \\n\\n                            \\n                                \\n                                    \\n                                        Treatment of breast cancer | breast centre bern biel\\n                                    \\n                                https://www.hirslanden.ch/en/salem-spital/centers/breast-centre/range-of-services/treatment.html\\n                                \\n                                    The Bern Biel Breast Centre offers numerous treatment options for breast cancer. Find out more. \\n                                \\n                            \\n                        \\n\\n                            \\n                                \\n                                    \\n                                        Oncology\\n                                    \\n                                https://www.hirslanden.ch/en/klinik-im-park/range-of-treatment/onkologie.html\\n                                \\n                                    Find out more about the oncology and the range of treatments of the Hirslanden Klinik Im Park. \\n                                \\n                            \\n                        \\n\\n                            \\n                                \\n                                    \\n                                        Head medicine\\n                                    \\n                                https://www.hirslanden.ch/en/klinik-im-park/range-of-treatment/kopf.html\\n                                \\n                                    Find out more about the head medicine and about the range of treatment of the Hirslanden Klinik Im Park. \\n                                \\n                            \\n                        \\n\\n                            \\n                                \\n                                    \\n                                        Treatments\\n                                    \\n                                https://www.hirslanden.ch/en/clinique-des-grangettes/centres-et-instituts/prostate-center/treatments.html\\n                                \\n                                    We work to offer the patient a personalized treatment of high quality. We explore several treatment options depending on the type of cancer, the stage of the disease and the overall situation of the patient, who is a true partner in the choices that are made.\\n                                \\n                            \\n                        \\n\\n                            \\n                                \\n                                    \\n                                        Car t-cell therapy at a glance\\n                                    \\n                                https://www.hirslanden.ch/en/corporate/treatments/car-t-cells.html\\n                                \\n                                    Find out what is behind the treatment here.\\n                                \\n                            \\n                        \\n\\n                    \\n                \\n            \\n\\n            \\n                \\n                    \\n                        \\n                    \\n                    Display more\\n                \\n            \\n        \\n\\n        \\n    \\n\\n\\n        \\n\\n        \\n            \\n  \\n    \\n  \\n\\n\\n    \\n\\n        \\n            \\n                Doctors 89\\n            \\n        \\n\\n        \\n        \\n\\n        \\n            \\n                \\n                \\n                \\n                \\n\\n                \\n                    \\n                        \\n                        \\n                            \\n                                \\n  \\n    \\n      \\n        \\n  \\n    \\n        \\n            \\n                \\n                    \\n                        \\n\\n\\n\\n\\n                        \\n                    \\n                \\n            \\n\\n            \\n            \\n        \\n    \\n\\n  \\n\\n      \\n      \\n        Dr. med. Alex Tanner\\n        \\n          Specialist in\\n          \\n            \\n              Orthopaedic surgery and traumatology\\n              \\n              \\n            \\n          \\n        \\n        \\n        \\n          Languages:\\n          \\n            German, English, French, Spanish\\n          \\n        \\n        \\n          Locations:\\n          \\n            Zürich\\n          \\n        \\n        \\n        \\n          \\n            View Profile\\n          \\n        \\n        \\n          \\n            \\n          \\n        \\n      \\n    \\n  \\n  \\n\\n\\n                                \\n                                \\n                            \\n                                \\n  \\n    \\n      \\n        \\n  \\n    \\n        \\n            \\n                \\n                    \\n                        \\n\\n\\n\\n\\n                        \\n                    \\n                \\n            \\n\\n            \\n            \\n        \\n    \\n\\n  \\n\\n      \\n      \\n        Docteur Julien Schwartz\\n        \\n          Specialist in\\n          \\n            \\n              Urology\\n              \\n                specially: Surgical urology\\n              \\n              \\n            \\n          \\n        \\n        \\n        \\n          Languages:\\n          \\n            French, German, English\\n          \\n        \\n        \\n          Locations:\\n          \\n            Lausanne\\n          \\n        \\n        \\n        \\n          \\n            View Profile\\n          \\n        \\n        \\n          \\n            \\n          \\n        \\n      \\n    \\n  \\n  \\n\\n\\n                                \\n                                \\n                            \\n                                \\n  \\n    \\n      \\n        \\n  \\n    \\n        \\n            \\n                \\n                    \\n                        \\n\\n\\n\\n\\n                        \\n                    \\n                \\n            \\n\\n            \\n            \\n        \\n    \\n\\n  \\n\\n      \\n      \\n        Dr. med. Friederike Christina Remmen\\n        \\n          Specialist in\\n          \\n            \\n              Surgery\\n              \\n              \\n            \\n          \\n        \\n        \\n        \\n          Languages:\\n          \\n            German, English, French\\n          \\n        \\n        \\n          Locations:\\n          \\n            Zürich\\n          \\n        \\n        \\n        \\n          \\n            View Profile\\n          \\n        \\n        \\n          \\n            \\n          \\n        \\n      \\n    \\n  \\n  \\n\\n\\n                                \\n                                \\n                            \\n                                \\n  \\n    \\n      \\n        \\n  \\n    \\n        \\n            \\n                \\n                    \\n                        \\n\\n\\n\\n\\n                        \\n                    \\n                \\n            \\n\\n            \\n            \\n        \\n    \\n\\n  \\n\\n      \\n      \\n        Prof. Dr. med. Oliver Dudeck\\n        \\n          Specialist in\\n          \\n            \\n              Radiology\\n              \\n              \\n            \\n          \\n        \\n        \\n        \\n          Languages:\\n          \\n            German, English, Spanish, French\\n          \\n        \\n        \\n          Locations:\\n          \\n            Zürich\\n          \\n        \\n        \\n        \\n          \\n            View Profile\\n          \\n        \\n        \\n          \\n            \\n          \\n        \\n      \\n    \\n  \\n  \\n\\n\\n                                \\n                                \\n                            \\n                                \\n  \\n    \\n      \\n        \\n  \\n    \\n        \\n            \\n                \\n                    \\n                        \\n\\n\\n\\n\\n                        \\n                    \\n                \\n            \\n\\n            \\n            \\n        \\n    \\n\\n  \\n\\n      \\n      \\n        PD Dr. Dr. med. Dennis Rohner\\n        \\n          Specialist in\\n          \\n            \\n              Oral and maxillofacial surgery\\n              \\n              \\n            \\n          \\n        \\n        \\n        \\n          Languages:\\n          \\n            German, English, French, Italian\\n          \\n        \\n        \\n          Locations:\\n          \\n            Aarau\\n          \\n        \\n        \\n        \\n          \\n            View Profile\\n          \\n        \\n        \\n          \\n            \\n          \\n        \\n      \\n    \\n  \\n  \\n\\n\\n                                \\n                                \\n                            \\n                                \\n  \\n    \\n      \\n        \\n  \\n    \\n        \\n            \\n                \\n                    \\n                        \\n\\n\\n\\n\\n                        \\n                    \\n                \\n            \\n\\n            \\n            \\n        \\n    \\n\\n  \\n\\n      \\n      \\n        Dr. med. Michela Corti\\n        \\n          Specialist in\\n          \\n            \\n              Dermatology and Venereology\\n              \\n              \\n            \\n          \\n        \\n        \\n        \\n          Languages:\\n          \\n            German, Italian, French, English\\n          \\n        \\n        \\n          Locations:\\n          \\n            Zürich\\n          \\n        \\n        \\n        \\n          \\n            View Profile\\n          \\n        \\n        \\n          \\n            \\n          \\n        \\n      \\n    \\n  \\n  \\n\\n\\n                                \\n                                \\n                            \\n                                \\n  \\n    \\n      \\n        \\n  \\n    \\n        \\n            \\n                \\n                    \\n                        \\n\\n\\n\\n\\n                        \\n                    \\n                \\n            \\n\\n            \\n            \\n        \\n    \\n\\n  \\n\\n      \\n      \\n        Dr. med. Dr. med. dent. Konstantinos Katsoulis\\n        \\n          Specialist in\\n          \\n            \\n              Oral and maxillofacial surgery\\n              \\n              \\n            \\n          \\n        \\n        \\n        \\n          Languages:\\n          \\n            German, French, English, Greek, Italian\\n          \\n        \\n        \\n          Locations:\\n          \\n            Biel/Bienne\\n          \\n        \\n        \\n        \\n          \\n            View Profile\\n          \\n        \\n        \\n          \\n            \\n          \\n        \\n      \\n    \\n  \\n  \\n\\n\\n                                \\n                                \\n                            \\n                                \\n  \\n    \\n      \\n        \\n  \\n    \\n        \\n            \\n                \\n                    \\n                        \\n\\n\\n\\n\\n                        \\n                    \\n                \\n            \\n\\n            \\n            \\n        \\n    \\n\\n  \\n\\n      \\n      \\n        Dr. med. Borut Banic\\n        \\n          Specialist in\\n          \\n            \\n              Plastic, Reconstructive and Cosmetic Surgery\\n              \\n              \\n            \\n          \\n        \\n        \\n        \\n          Languages:\\n          \\n            German, English, French, Slovenian, Croatian\\n          \\n        \\n        \\n          Locations:\\n          \\n            Bern\\n          \\n        \\n        \\n        \\n          \\n            View Profile\\n          \\n        \\n        \\n          \\n            \\n          \\n        \\n      \\n    \\n  \\n  \\n\\n\\n                                \\n                                \\n                            \\n                                \\n  \\n    \\n      \\n        \\n  \\n    \\n        \\n            \\n                \\n                    \\n                        \\n\\n\\n\\n\\n                        \\n                    \\n                \\n            \\n\\n            \\n            \\n        \\n    \\n\\n  \\n\\n      \\n      \\n        Dr. med. Nathalie Irla-Vuille\\n        \\n          Specialist in\\n          \\n            \\n              Dermatology and Venereology\\n              \\n              \\n            \\n          \\n        \\n        \\n        \\n          Languages:\\n          \\n            French, English, German\\n          \\n        \\n        \\n          Locations:\\n          \\n            Zug\\n          \\n        \\n        \\n        \\n          \\n            View Profile\\n          \\n        \\n        \\n          \\n            \\n          \\n        \\n      \\n    \\n  \\n  \\n\\n\\n                                \\n                                \\n                            \\n                                \\n  \\n    \\n      \\n        \\n  \\n    \\n        \\n            \\n                \\n                    \\n                        \\n\\n\\n\\n\\n                        \\n                    \\n                \\n            \\n\\n            \\n            \\n        \\n    \\n\\n  \\n\\n      \\n      \\n        Dr. med. Angelika Donalies\\n        \\n          Specialist in\\n          \\n            \\n              Gynaecology and Obstetrics\\n              \\n                specially: Surgical Gynaecology and Obstetrics\\n              \\n              \\n            \\n          \\n        \\n        \\n        \\n          Languages:\\n          \\n            German, English, French\\n          \\n        \\n        \\n          Locations:\\n          \\n            Solothurn\\n          \\n        \\n        \\n        \\n          \\n            View Profile\\n          \\n        \\n        \\n          \\n            \\n          \\n        \\n      \\n    \\n  \\n  \\n\\n\\n                                \\n                                \\n                            \\n                        \\n                    \\n                    \\n                \\n            \\n\\n            \\n                \\n                    \\n                        \\n                    \\n                    Display more\\n                \\n            \\n        \\n\\n\\n        \\n    \\n\\n  \\n\\n        \\n\\n        \\n            \\n  \\n    Service Offerings 171\\n  \\n  \\n    \\n      \\n        \\n          \\n            \\n  \\n    RezumTM therapy (steam treatment)\\n    \\n  \\n\\n          \\n\\n            \\n  \\n    CAR T-cell therapy\\n    \\n  \\n\\n          \\n\\n            \\n  \\n    Chemotherapy\\n    \\n  \\n\\n          \\n\\n            \\n  \\n    ICSI – Artificial Insemination\\n    \\n  \\n\\n          \\n\\n            \\n  \\n    Radiotherapy \\n    \\n  \\n\\n          \\n\\n            \\n  \\n    Knee joint imaging\\n    \\n  \\n\\n          \\n\\n            \\n  \\n    In Vitro Fertilisation (IVF)\\n    \\n  \\n\\n          \\n\\n            \\n  \\n    Pain therapy\\n    \\n  \\n\\n          \\n\\n            \\n  \\n    Varicose vein operations\\n    \\n  \\n\\n          \\n\\n            \\n  \\n    Cardiac arrhythmias\\n    \\n  \\n\\n          \\n\\n        \\n      \\n    \\n\\n    \\n      \\n        \\n          \\n        \\n        Display more\\n      \\n    \\n  \\n\\n\\n\\n        \\n\\n        \\n            \\n  \\n    \\n  \\n\\n\\n    \\n\\n        \\n            \\n                Hospitals 10\\n            \\n        \\n\\n        \\n        \\n\\n        \\n            \\n                \\n                \\n                \\n                \\n\\n                \\n                    \\n                        \\n                        \\n                            \\n                                \\n  \\n       \\n          \\n              \\n  \\n    \\n        \\n            \\n                \\n                    \\n                        \\n\\n\\n\\n\\n                        \\n                    \\n                \\n            \\n\\n            \\n            \\n        \\n    \\n\\n  \\n\\n          \\n      \\n      \\n          Clinique des Grangettes\\n          \\n              \\n                  \\n                    Chemin des Grangettes 7\\n1224 Chêne-Bougeries\\n                    \\n                    \\n                    \\n                    \\n                  \\n              \\n              \\n                  \\n                    \\n                        Phone +41 22 305 01 11\\n                  \\n                  \\n                    Phone \\n                        \\n                        +41 22 305 01 11\\n                  \\n              \\n              \\n                  \\n                    \\n                      Emergency Department +41 22 305 07 77\\n                  \\n                  \\n                        Emergency Department \\n                        \\n                        +41 22 305 07 77\\n                  \\n              \\n              \\n                \\n                      View Hospital\\n                \\n              \\n          \\n      \\n      \\n  \\n  \\n\\n\\n                                \\n                                \\n                            \\n\\n                                \\n  \\n       \\n          \\n              \\n  \\n    \\n        \\n            \\n                \\n                    \\n                        \\n\\n\\n\\n\\n                        \\n                    \\n                \\n            \\n\\n            \\n            \\n        \\n    \\n\\n  \\n\\n          \\n      \\n      \\n          Hirslanden Klinik Birshof\\n          \\n              \\n                  \\n                    Reinacherstrasse 28\\nCH-4142 Münchenstein\\n                    \\n                    \\n                    \\n                    \\n                  \\n              \\n              \\n                  \\n                    \\n                        Phone +41 61 335 22 22\\n                  \\n                  \\n                    Phone \\n                        \\n                        +41 61 335 22 22\\n                  \\n              \\n              \\n                  \\n                    \\n                      Emergency Department +41 61 335 25 75\\n                  \\n                  \\n                        Emergency Department \\n                        \\n                        +41 61 335 25 75\\n                  \\n              \\n              \\n                \\n                      View Hospital\\n                \\n              \\n          \\n      \\n      \\n  \\n  \\n\\n\\n                                \\n                                \\n                            \\n\\n                                \\n  \\n       \\n          \\n              \\n  \\n    \\n        \\n            \\n                \\n                    \\n                        \\n\\n\\n\\n\\n                        \\n                    \\n                \\n            \\n\\n            \\n            \\n        \\n    \\n\\n  \\n\\n          \\n      \\n      \\n          Klinik Beau-Site\\n          \\n              \\n                  \\n                    Schänzlihalde 11\\n3013 Bern\\n                    \\n                    \\n                    \\n                    \\n                  \\n              \\n              \\n                  \\n                    \\n                        Phone +41 31 335 33 33\\n                  \\n                  \\n                    Phone \\n                        \\n                        +41 31 335 33 33\\n                  \\n              \\n              \\n                  \\n                    \\n                      Emergency Department +41 31 335 30 30\\n                  \\n                  \\n                        Emergency Department \\n                        \\n                        +41 31 335 30 30\\n                  \\n              \\n              \\n                \\n                      View Hospital\\n                \\n              \\n          \\n      \\n      \\n  \\n  \\n\\n\\n                                \\n                                \\n                            \\n\\n                                \\n  \\n       \\n          \\n              \\n  \\n    \\n        \\n            \\n                \\n                    \\n                        \\n\\n\\n\\n\\n                        \\n                    \\n                \\n            \\n\\n            \\n            \\n        \\n    \\n\\n  \\n\\n          \\n      \\n      \\n          Salem-Spital\\n          \\n              \\n                  \\n                    Schänzlistrasse 39\\n3013 Bern\\n                    \\n                    \\n                    \\n                    \\n                  \\n              \\n              \\n                  \\n                    \\n                        Phone +41 31 337 60 00\\n                  \\n                  \\n                    Phone \\n                        \\n                        +41 31 337 60 00\\n                  \\n              \\n              \\n                  \\n                    \\n                      Emergency Department +41 31 335 35 35 \\n                  \\n                  \\n                        Emergency Department \\n                        \\n                        +41 31 335 35 35 \\n                  \\n              \\n              \\n                \\n                      View Hospital\\n                \\n              \\n          \\n      \\n      \\n  \\n  \\n\\n\\n                                \\n                                \\n                            \\n\\n                                \\n  \\n       \\n          \\n              \\n  \\n    \\n        \\n            \\n                \\n                    \\n                        \\n\\n\\n\\n\\n                        \\n                    \\n                \\n            \\n\\n            \\n            \\n        \\n    \\n\\n  \\n\\n          \\n      \\n      \\n          Hirslanden Klinik Im Park\\n          \\n              \\n                  \\n                    \\n                    Seestrasse 220\\n                    8027 Zurich\\n                    \\n                    \\n                  \\n              \\n              \\n                  \\n                    \\n                        Phone +41 44 209 21 11\\n                  \\n                  \\n                    Phone \\n                        \\n                        +41 44 209 21 11\\n                  \\n              \\n              \\n                  \\n                    \\n                      Emergency Department +41 44 209 28 50\\n                  \\n                  \\n                        Emergency Department \\n                        \\n                        +41 44 209 28 50\\n                  \\n              \\n              \\n                \\n                      View Hospital\\n                \\n              \\n          \\n      \\n      \\n  \\n  \\n\\n\\n                                \\n                                \\n                            \\n\\n                                \\n  \\n       \\n          \\n              \\n  \\n    \\n        \\n            \\n                \\n                    \\n                        \\n\\n\\n\\n\\n                        \\n                    \\n                \\n            \\n\\n            \\n            \\n        \\n    \\n\\n  \\n\\n          \\n      \\n      \\n          AndreasKlinik Cham Zug\\n          \\n              \\n                  \\n                    Rigistrasse 1\\n6330 Cham\\n                    \\n                    \\n                    \\n                    \\n                  \\n              \\n              \\n                  \\n                    \\n                        Phone +41 41 784 07 84\\n                  \\n                  \\n                    Phone \\n                        \\n                        +41 41 784 07 84\\n                  \\n              \\n              \\n                  \\n                    \\n                      Emergency Department +41 41 784 0144\\n                  \\n                  \\n                        Emergency Department \\n                        \\n                        +41 41 784 0144\\n                  \\n              \\n              \\n                \\n                      View Hospital\\n                \\n              \\n          \\n      \\n      \\n  \\n  \\n\\n\\n                                \\n                                \\n                            \\n\\n                                \\n  \\n       \\n          \\n              \\n  \\n    \\n        \\n            \\n                \\n                    \\n                        \\n\\n\\n\\n\\n                        \\n                    \\n                \\n            \\n\\n            \\n            \\n        \\n    \\n\\n  \\n\\n          \\n      \\n      \\n          Clinique La Colline\\n          \\n              \\n                  \\n                    Avenue de Beau-Séjour 6\\n1206 Genève\\n                    \\n                    \\n                    \\n                    \\n                  \\n              \\n              \\n                  \\n                    \\n                        Phone +41 22 702 20 22\\n                  \\n                  \\n                    Phone \\n                        \\n                        +41 22 702 20 22\\n                  \\n              \\n              \\n                  \\n                    \\n                      Emergency Department +41 22 702 21 44\\n                  \\n                  \\n                        Emergency Department \\n                        \\n                        +41 22 702 21 44\\n                  \\n              \\n              \\n                \\n                      View Hospital\\n                \\n              \\n          \\n      \\n      \\n  \\n  \\n\\n\\n                                \\n                                \\n                            \\n\\n                                \\n  \\n       \\n          \\n              \\n  \\n    \\n        \\n            \\n                \\n                    \\n                        \\n\\n\\n\\n\\n                        \\n                    \\n                \\n            \\n\\n            \\n            \\n        \\n    \\n\\n  \\n\\n          \\n      \\n      \\n          Klinik Hirslanden\\n          \\n              \\n                  \\n                    \\n                    Witellikerstrasse 40\\n                    8032 Zürich\\n                    \\n                    \\n                  \\n              \\n              \\n                  \\n                    \\n                        Phone +41 44 387 21 11\\n                  \\n                  \\n                    Phone \\n                        \\n                        +41 44 387 21 11\\n                  \\n              \\n              \\n                  \\n                    \\n                      Emergency Department +41 44 387 35 35\\n                  \\n                  \\n                        Emergency Department \\n                        \\n                        +41 44 387 35 35\\n                  \\n              \\n              \\n                \\n                      View Hospital\\n                \\n              \\n          \\n      \\n      \\n  \\n  \\n\\n\\n                                \\n                                \\n                            \\n\\n                                \\n  \\n       \\n          \\n              \\n  \\n    \\n        \\n            \\n                \\n                    \\n                        \\n\\n\\n\\n\\n                        \\n                    \\n                \\n            \\n\\n            \\n            \\n        \\n    \\n\\n  \\n\\n          \\n      \\n      \\n          Hirslanden Klinik Aarau\\n          \\n              \\n                  \\n                    Schänisweg\\n5001 Aarau\\n                    \\n                    \\n                    \\n                    \\n                  \\n              \\n              \\n                  \\n                    \\n                        Phone +41 62 836 70 00\\n                  \\n                  \\n                    Phone \\n                        \\n                        +41 62 836 70 00\\n                  \\n              \\n              \\n                  \\n                    \\n                      Emergency Department +41 62 836 76 76\\n                  \\n                  \\n                        Emergency Department \\n                        \\n                        +41 62 836 76 76\\n                  \\n              \\n              \\n                \\n                      View Hospital\\n                \\n              \\n          \\n      \\n      \\n  \\n  \\n\\n\\n                                \\n                                \\n                            \\n\\n                                \\n  \\n       \\n          \\n              \\n  \\n    \\n        \\n            \\n                \\n                    \\n                        \\n\\n\\n\\n\\n                        \\n                    \\n                \\n            \\n\\n            \\n            \\n        \\n    \\n\\n  \\n\\n          \\n      \\n      \\n          Klinik Stephanshorn\\n          \\n              \\n                  \\n                    \\n                    Brauerstrasse 95\\n                    CH-9016 St.Gallen\\n                    \\n                    \\n                  \\n              \\n              \\n                  \\n                    \\n                        Phone +41 71 282 71 11\\n                  \\n                  \\n                    Phone \\n                        \\n                        +41 71 282 71 11\\n                  \\n              \\n              \\n                  \\n                    \\n                      Emergency Department +41 71 282 74 74\\n                  \\n                  \\n                        Emergency Department \\n                        \\n                        +41 71 282 74 74\\n                  \\n              \\n              \\n                \\n                      View Hospital\\n                \\n              \\n          \\n      \\n      \\n  \\n  \\n\\n\\n                                \\n                                \\n                            \\n\\n                        \\n                    \\n                    \\n                \\n            \\n\\n            \\n        \\n\\n\\n        \\n    \\n\\n\\n        \\n\\n        \\n            \\n  \\n    \\n  \\n\\n\\n    \\n\\n        \\n            \\n                Centres 191\\n            \\n        \\n\\n        \\n            \\n    \\n        \\n            \\n                Key word/name\\n                \\n                \\n                \\n            \\n            \\n            \\n                \\n                    \\n    \\n        \\n        \\n        \\n            \\n                Aarau\\n                \\n\\n                Basle\\n                \\n\\n                Bern\\n                \\n\\n                Biel\\n                \\n\\n                Cham Zug\\n                \\n\\n                Geneva\\n                \\n\\n                Heiden\\n                \\n\\n                Lausanne\\n                \\n\\n                Lucerne\\n                \\n\\n                Meggen\\n                \\n\\n                St Gallen\\n                \\n\\n                Zurich\\n                \\n\\n        \\n    \\n\\n                \\n                    \\n    \\n        \\n        \\n        \\n            \\n                Abdominal radiology\\n                \\n\\n                Accident surgery\\n                \\n\\n                Allergology and Immunology\\n                \\n\\n                Anaesthesiology\\n                \\n\\n                Angiology\\n                \\n\\n                Cardiac and thoracic Vascular Surgery\\n                \\n\\n                Cardiac imaging\\n                \\n\\n                Cardiology\\n                \\n\\n                Checkup\\n                \\n\\n                Child and adolescent psychiatry and psychotherapy\\n                \\n\\n                Clinical Emergency Medicine (SGNOR)\\n                \\n\\n                Clinical nutrition\\n                \\n\\n                Clinical pharmacology and toxicology\\n                \\n\\n                Dermatology and Venereology\\n                \\n\\n                Diagnostic neuroradiology\\n                \\n\\n                Early rehabilitation\\n                \\n\\n                Electroencephlography (SGKN)\\n                \\n\\n                Emergency care physician (SGNOR)\\n                \\n\\n                Endocrinology / Diabetology\\n                \\n\\n                Endoscopic retrograde cholangiopancreatography ERCP (SSG)\\n                \\n\\n                Endovenous thermal ablation of varicose saphenous veins (UVSS)\\n                \\n\\n                Expertise in high doses radiological investigations & therapeutic interventions in angiology\\n                \\n\\n                Expertise in high doses radiological investigations & therapeutic interventions in gastroenterology\\n                \\n\\n                Expertise in high doses radiological investigations in cardiology (SGK)\\n                \\n\\n                Expertise in high doses radiology (KHM)\\n                \\n\\n                Gastroenterology\\n                \\n\\n                Gastroscopy (SGG)\\n                \\n\\n                General Internal Medicine\\n                \\n\\n                Geriatrics\\n                \\n\\n                Gynaecological cytology\\n                \\n\\n                Gynaecological Oncology\\n                \\n\\n                Gynaecology\\n                \\n\\n                Gynaecology and Obstetrics\\n                \\n\\n                Haematology\\n                \\n\\n                Hand Surgery\\n                \\n\\n                Head and neck surgery\\n                \\n\\n                Hepatology\\n                \\n\\n                Hip ultrasonography (SGUM)\\n                \\n\\n                Infectology\\n                \\n\\n                Intensive Care\\n                \\n\\n                Interventional Pain Management (SSIPM)\\n                \\n\\n                Interventional radiology\\n                \\n\\n                Lymphology\\n                \\n\\n                Manual medicine (SAMM)\\n                \\n\\n                Medical analysis laboratory FAMH\\n                \\n\\n                Medical Oncology\\n                \\n\\n                Medical practice laboratory (KHM)\\n                \\n\\n                Molecular pathology\\n                \\n\\n                Musculoskeletal radiology\\n                \\n\\n                Médecine d’urgence hospitalière (SSMUS)\\n                \\n\\n                Médecine interne générale\\n                \\n\\n                Nephrology\\n                \\n\\n                Neuro-urology\\n                \\n\\n                Neurology\\n                \\n\\n                Neurosurgery\\n                \\n\\n                Nuclear Medicine\\n                \\n\\n                Ophthalmology\\n                \\n\\n                Oral and maxillofacial surgery\\n                \\n\\n                Oral surgery (FOPH)\\n                \\n\\n                Orthopaedic surgery and traumatology\\n                \\n\\n                Osteology\\n                \\n\\n                Osteopathy\\n                \\n\\n                Otorhinolaryngology\\n                \\n\\n                Paediatric and foetal echocardiography\\n                \\n\\n                Paediatric cardiac intensive care\\n                \\n\\n                Paediatric cardiology\\n                \\n\\n                Paediatric emergency medicine\\n                \\n\\n                Paediatric gastroenterology and hepatology\\n                \\n\\n                Paediatric Sonography\\n                \\n\\n                Pain specialist (SGSS)\\n                \\n\\n                Palliative medicine\\n                \\n\\n                Pathology\\n                \\n\\n                Pediatrics\\n                \\n\\n                Pelviperineology\\n                \\n\\n                Phlebology (USGG)\\n                \\n\\n                Phoniatrics\\n                \\n\\n                Physical Medicine and Rehabilitation\\n                \\n\\n                Phytotherapy (SMSP)\\n                \\n\\n                Plastic, Reconstructive and Cosmetic Surgery\\n                \\n\\n                Pneumology\\n                \\n\\n                Point of Care Ultrasound POCUS (SGUM)\\n                \\n\\n                Prevention and public health\\n                \\n\\n                Proctology\\n                \\n\\n                Radio-oncology / radiotherapy\\n                \\n\\n                Radiology\\n                \\n\\n                Rheumatology\\n                \\n\\n                Rhythmology\\n                \\n\\n                Senology / Breast medicine\\n                \\n\\n                Sleep Medicine\\n                \\n\\n                Spine Surgery\\n                \\n\\n                Sports medicine (SEMS)\\n                \\n\\n                Surgery\\n                \\n\\n                Surgical Gynaecology and Obstetrics\\n                \\n\\n                Surgical urology\\n                \\n\\n                Thoracic Surgery\\n                \\n\\n                Traumatology Specialist\\n                \\n\\n                Ultrasonography (SGUM)\\n                \\n\\n                Urology\\n                \\n\\n                Vascular Surgery\\n                \\n\\n                Visceral Surgery\\n                \\n\\n        \\n    \\n\\n                \\n            \\n            \\n\\n            \\n                Apply\\n            \\n            \\n\\n        \\n        \\n        \\n            \\n                \\n            \\n        \\n    \\n\\n        \\n        \\n\\n        \\n            \\n                \\n                \\n                \\n                \\n\\n                \\n                    \\n                        \\n                        \\n                            \\n                                \\n  \\n    Breast Centre Bern Biel - Location Bern\\n    \\n      \\n        \\n          House Blumenberg, Entrance west\\n          Schänzlistrasse 33\\n          3013 Bern\\n          \\n          \\n        \\n      \\n        \\n          T +41 31 337 89 70\\n      \\n        \\n      \\n        e-mail\\n      \\n    \\n    \\n  \\n  \\n\\n\\n                                \\n                                \\n                            \\n\\n                                \\n  \\n    Breast Centre Bern Biel - Location Biel\\n    \\n      \\n        \\n          Hirslanden Klinik Linde\\n          Blumenrain 105\\n          2501 Biel\\n          \\n          \\n        \\n      \\n        \\n          T +41 31 366 42 60\\n      \\n        \\n      \\n        e-mail\\n      \\n    \\n    \\n  \\n  \\n\\n\\n                                \\n                                \\n                            \\n\\n                                \\n  \\n    Gefässpraxis Dr. G. Sauvant\\n    \\n      \\n        \\n          \\n          Kappelistrasse 7\\n          8002 Zürich\\n          \\n          \\n        \\n      \\n        \\n          T +41 44 483 08 80\\n      \\n        \\n      \\n        e-mail\\n      \\n    \\n    \\n      \\n        \\n        \\nConsultation hours by appointment, also possible at off-peak times.\\n\\nAvailable by telephone Monday to Friday from 09.00-11.00 h and 14.00-16.00 h\\n      \\n    \\n  \\n  \\n\\n\\n                                \\n                                \\n                            \\n\\n                                \\n  \\n    Breast Centre Zürichsee\\n    \\n      \\n        \\n          Location at Klinik Im Park\\nSeestrasse 220\\n8027 Zürich\\n\\nAvailability by telephone:\\nMon-Fri: 9.00-12.00 am and 1.00-4.00 pm \\n          \\n          \\n          \\n          \\n        \\n      \\n        \\n          T +41 44 209 22 22\\n      \\n        \\n      \\n        e-mail\\n      \\n    \\n    \\n  \\n  \\n\\n\\n                                \\n                                \\n                            \\n\\n                                \\n  \\n    Unit of General Internal Medicine\\n    \\n      \\n        \\n          Witellikerstrasse 40\\n8032 Zürich\\n          \\n          \\n          \\n          \\n        \\n      \\n        \\n          T +41 44 387 20 60\\n      \\n        \\n          F  +41 44 387 20 69\\n      \\n      \\n        e-mail\\n      \\n    \\n    \\n  \\n  \\n\\n\\n                                \\n                                \\n                            \\n\\n                                \\n  \\n    Pain Center\\n    \\n      \\n        \\n          Schänzlistrasse 39\\n3013 Bern\\n          \\n          \\n          \\n          \\n        \\n      \\n        \\n          T +41 31 337 80 80\\n      \\n        \\n          F  +41 31 337 80 81\\n      \\n      \\n        e-mail\\n      \\n    \\n    \\n  \\n  \\n\\n\\n                                \\n                                \\n                            \\n\\n                                \\n  \\n    Stroke Center Hirslanden\\n    \\n      \\n        \\n          (Emergency)\\nWitellikerstrasse 40\\n8032 Zürich\\n\\nDirect dial 24-hour emergency centre\\n(also for emergency doctors / primary care providers / referring doctors / paramedics / partner hospitals)\\n\\n          \\n          \\n          \\n          \\n        \\n      \\n        \\n          T +41 44 387 35 35\\n      \\n        \\n      \\n    \\n    \\n  \\n  \\n\\n\\n                                \\n                                \\n                            \\n\\n                                \\n  \\n    Stroke Center Hirslanden (Contact)\\n    \\n      \\n        \\n          Witellikerstrasse 40\\n8032 Zürich\\n          \\n          \\n          \\n          \\n        \\n      \\n        \\n          T +41 44 387 39 93\\n      \\n        \\n          F  +41 44 387 39 96\\n      \\n      \\n        e-mail\\n      \\n    \\n    \\n  \\n  \\n\\n\\n                                \\n                                \\n                            \\n\\n                                \\n  \\n    Centre de la prostate Lausanne - Clinique Cecil\\n    \\n      \\n        \\n          Hirslanden Clinique Cecil\\nAvenue Ruchonnet 53\\n1003 Lausanne\\n\\n\\n          \\n          \\n          \\n          \\n        \\n      \\n        \\n          T +41 21 310 52 20 \\n      \\n        \\n      \\n    \\n    \\n  \\n  \\n\\n\\n                                \\n                                \\n                            \\n\\n                                \\n  \\n    Centre de la prostate Lausanne - Clinique Bois-Cerf\\n    \\n      \\n        \\n          Hirslanden Clinique Bois-Cerf\\nAvenue d'Ouchy 31\\n1006 Lausanne\\n\\n\\n          \\n          \\n          \\n          \\n        \\n      \\n        \\n          T +41 21 310 52 20 \\n      \\n        \\n      \\n    \\n    \\n  \\n  \\n\\n\\n                                \\n                                \\n                            \\n\\n                                \\n  \\n    Physiotherapy and sports physiotherapy\\n    \\n      \\n        \\n          Reinacherstrasse 28\\n4142 Münchenstein\\n          \\n          \\n          \\n          \\n        \\n      \\n        \\n          T 41 61 335 22 22\\n      \\n        \\n          F  41 61 335 22 05\\n      \\n      \\n        e-mail\\n      \\n    \\n    \\n  \\n  \\n\\n\\n                                \\n                                \\n                            \\n\\n                                \\n  \\n    Kidney Stone Center Zurich (Nephrology)\\n    \\n      \\n        \\n          \\n          Bellariastrasse 38\\n          8027 Zurich\\n          \\n          \\n        \\n      \\n        \\n          T +41 44 209 25 30\\n      \\n        \\n      \\n    \\n    \\n  \\n  \\n\\n\\n                                \\n                                \\n                            \\n\\n                                \\n  \\n    Kidney Stone Center Zurich (Urology)\\n    \\n      \\n        \\n          \\n          Seestrasse 129\\n          8027 Zurich\\n          \\n          \\n        \\n      \\n        \\n          T +41 44 480 07 60\\n      \\n        \\n      \\n    \\n    \\n  \\n  \\n\\n\\n                                \\n                                \\n                            \\n\\n                                \\n  \\n    Breast center\\n    \\n      \\n        \\n          Hirslanden Clinique des Grangettes\\n \\n           Chemin des Grangettes 7 \\n           1224  Chêne-Bougeries\\n          \\n          \\n        \\n      \\n        \\n          T 0800 33 11 00\\n      \\n        \\n      \\n        e-mail\\n      \\n    \\n    \\n      \\n        \\n        Monday to Friday: 9 a.m. to 5 p.m.\\n      \\n    \\n  \\n  \\n\\n\\n                                \\n                                \\n                            \\n\\n                        \\n                    \\n                    \\n                \\n            \\n\\n            \\n                \\n                    \\n                        \\n                    \\n                    Display more\\n                \\n            \\n        \\n\\n\\n        \\n    \\n\\n  \\n  \\n\\n        \\n\\n        \\n            \\n  \\n\\n\\n        \\n\\n        \\n            \\n        \\n    \\n  \\n\\n\\n    \\n\\n        \\n            \\n                Events 4\\n            \\n        \\n\\n        \\n        \\n\\n        \\n            \\n                \\n                \\n                    \\n                        \\n                            \\n                            \\n                                \\n                                \\n  \\n    \\n      \\n        05\\n        Sep.\\n      \\n      \\n\\n        \\n          \\n            \\n              Zurich\\n            \\n            \\n              | Hirslanden Klinik Im Park\\n            \\n          \\n          \\n          further dates available\\n          \\n          \\n          \\n        \\n        Information event for expectant parents\\n      \\n      \\n        \\n          \\n  \\n    \\n        \\n            \\n                \\n                    \\n                        \\n\\n\\n\\n\\n                        \\n                    \\n                \\n            \\n\\n            \\n            \\n        \\n    \\n\\n  \\n\\n        \\n        \\n      \\n    \\n  \\n\\n\\n                            \\n\\n                                \\n                                \\n  \\n    \\n      \\n        21\\n        Sep.\\n      \\n      \\n\\n        \\n          \\n            \\n              Zurich\\n            \\n            \\n              | Hirslanden Klinik Im Park\\n            \\n          \\n          \\n          further dates available\\n          \\n          \\n          \\n        \\n        Intensive antenatal course for couples\\n      \\n      \\n        \\n          \\n  \\n    \\n        \\n            \\n                \\n                    \\n                        \\n\\n\\n\\n\\n                        \\n                    \\n                \\n            \\n\\n            \\n            \\n        \\n    \\n\\n  \\n\\n        \\n        \\n      \\n    \\n  \\n\\n\\n                            \\n\\n                                \\n                                \\n  \\n    \\n      \\n      \\n\\n        \\n          \\n            \\n              Geneva\\n            \\n            \\n              | Clinique des Grangettes\\n            \\n          \\n          \\n          \\n          \\n          Dates on request\\n          \\n        \\n        Kobido Care\\n      \\n      \\n        \\n          \\n  \\n    \\n        \\n            \\n                \\n                    \\n                        \\n\\n\\n\\n\\n                        \\n                    \\n                \\n            \\n\\n            \\n            \\n        \\n    \\n\\n  \\n\\n        \\n        \\n      \\n    \\n  \\n\\n\\n                            \\n\\n                                \\n                                \\n  \\n    \\n      \\n      \\n\\n        \\n          \\n            \\n              Zurich\\n            \\n            \\n              | Hirslanden Klinik Im Park\\n            \\n          \\n          \\n          \\n          \\n          Dates on request\\n          \\n        \\n        Rectus Diastasis Therapy\\n      \\n      \\n        \\n          \\n  \\n    \\n        \\n            \\n                \\n                    \\n                        \\n\\n\\n\\n\\n                        \\n                    \\n                \\n            \\n\\n            \\n            \\n        \\n    \\n\\n  \\n\\n        \\n        \\n      \\n    \\n  \\n\\n\\n                            \\n\\n                        \\n                    \\n                \\n                \\n                \\n\\n                \\n            \\n\\n            \\n        \\n\\n\\n        \\n    \\n\\n\\n        \\n\\n        \\n            \\n        \\n    \\n  \\n\\n\\n    \\n\\n        \\n            \\n                News 97\\n            \\n        \\n\\n        \\n        \\n\\n        \\n            \\n                \\n                \\n                \\n                \\n\\n                \\n                    \\n                        \\n                        \\n                            \\n                                \\n  \\n    \\n        \\n            \\n                \\n                    Press release\\n                    \\n                    \\n                        11.05.2022\\n                    \\n                    Collaboration thoracic surgery\\n                    \\n                    Hirslanden Group\\n                \\n            \\n        \\n    \\n\\n\\n                                \\n                                \\n                            \\n\\n                                \\n  \\n    \\n        \\n            \\n                \\n                    Press release\\n                    \\n                    \\n                        30.10.2019\\n                    \\n                    Cooperation between KSBL and Klinik Birshof\\n                    \\n                    Hirslanden Group\\n                \\n            \\n        \\n    \\n\\n\\n                                \\n                                \\n                            \\n\\n                                \\n  \\n    \\n        \\n            \\n                \\n                    Press release\\n                    \\n                    \\n                        17.03.2022\\n                    \\n                    Organisational changes at Hirslanden Bern\\n                    \\n                    Hirslanden Group\\n                \\n            \\n        \\n    \\n\\n\\n                                \\n                                \\n                            \\n\\n                                \\n  \\n    \\n        \\n            \\n                \\n                    Press release\\n                    \\n                    \\n                        27.01.2022\\n                    \\n                    Medbase, Hirslanden, Groupe Mutuel, Helsana, and SWICA launch a joint healthcare ecosystem\\n                    \\n                    Hirslanden Group\\n                \\n            \\n        \\n    \\n\\n\\n                                \\n                                \\n                            \\n\\n                                \\n  \\n    \\n        \\n            \\n                \\n                    Press release\\n                    \\n                    \\n                        25.02.2021\\n                    \\n                    Outpatient surgical centre «OPERA Baselland» under the public private partnership between Kantonsspital Baselland and Hirslanden Klinik Birshof\\n                    \\n                    Hirslanden Group\\n                \\n            \\n        \\n    \\n\\n\\n                                \\n                                \\n                            \\n\\n                                \\n  \\n    \\n        \\n            \\n                \\n                    Press release\\n                    \\n                    \\n                        11.09.2019\\n                    \\n                    Hirslanden extends integrated range of medical services on offer in eastern Switzerland\\n                    \\n                    Hirslanden Group\\n                \\n            \\n        \\n    \\n\\n\\n                                \\n                                \\n                            \\n\\n                                \\n  \\n    \\n        \\n            \\n                \\n                    Press release\\n                    \\n                    \\n                        07.05.2024\\n                    \\n                    Hirslanden reaches agreement with CSS\\n                    \\n                    Hirslanden Group\\n                \\n            \\n        \\n    \\n\\n\\n                                \\n                                \\n                            \\n\\n                                \\n  \\n    \\n        \\n            \\n                \\n                    Press release\\n                    \\n                    \\n                        08.09.2021\\n                    \\n                    Mujinga Kambundji and Hirslanden extend their partnership \\n                    \\n                    Hirslanden Group\\n                \\n            \\n        \\n    \\n\\n\\n                                \\n                                \\n                            \\n\\n                                \\n  \\n    \\n        \\n            \\n                \\n                    Press release\\n                    \\n                    \\n                        25.03.2021\\n                    \\n                    Covid-19: Canton of Schwyz tasks Hirslanden with implenting repeat testing\\n                    \\n                    Hirslanden Group\\n                \\n            \\n        \\n    \\n\\n\\n                                \\n                                \\n                            \\n\\n                                \\n  \\n    \\n        \\n            \\n                \\n                    Press release\\n                    \\n                    \\n                        28.06.2018\\n                    \\n                    Pioneering cardiac surgery cooperation gets under way\\n                    \\n                    Hirslanden Group\\n                \\n            \\n        \\n    \\n\\n\\n                                \\n                                \\n                            \\n\\n                        \\n                    \\n                    \\n                \\n            \\n\\n            \\n                \\n                    \\n                        \\n                    \\n                    Display more\\n                \\n            \\n        \\n\\n\\n        \\n    \\n\\n\\n        \\n\\n        \\n            \\n    \\n        Medical Knowledge 186\\n    \\n    \\n        \\n            \\n                \\n                    \\n                        \\n  \\n    New treatment options for prostate cancer thanks to genetic medicine: “We're just starting out on a long, exciting journey”\\n    \\n  \\n\\n                    \\n\\n                        \\n  \\n    Prostate cancer\\n    \\n  \\n\\n                    \\n\\n                        \\n  \\n    Multiple sclerosis\\n    \\n  \\n\\n                    \\n\\n                        \\n  \\n    Hallux valgus\\n    \\n  \\n\\n                    \\n\\n                        \\n  \\n    Carpal tunnel syndrome\\n    \\n  \\n\\n                    \\n\\n                        \\n  \\n    Cervical cancer\\n    \\n  \\n\\n                    \\n\\n                        \\n  \\n    Testicular cancer\\n    \\n  \\n\\n                    \\n\\n                        \\n  \\n    Non-melanoma skin cancer\\n    \\n  \\n\\n                    \\n\\n                        \\n  \\n    Melanoma\\n    \\n  \\n\\n                    \\n\\n                        \\n  \\n    Chronic pain - Symptoms & Treatment\\n    \\n  \\n\\n                    \\n\\n                \\n            \\n        \\n\\n        \\n            \\n                \\n                    \\n                \\n                Display more\\n            \\n        \\n    \\n\\n\\n\\n        \\n\\n        \\n            No results were found\\n        \\n        \\n\\n&nbsp;&nbsp;&nbsp;&nbsp;'** to include **'treatment'**",
+        "time" : {
+          "start" : 1721758427826,
+          "stop" : 1721758427826,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "actual",
+          "value" : "\n\n        \n            Did you mean\n            \n\n            \n        \n        \n            \n                \n                \n            \n            \n            All 1348\nDoctors 89\nService Offerings 171\nClinics 10\nCenters 191\nEvents 4\nNews & Media 97\nMedical Knowledge 186\n\n        \n        \n            \n    \n  \n\n    \n    \n    \n\n\n        \n            \n                \n                    \n                        \n                            \n                                \n                                    \n                                        Rezumtm therapy (steam treatment)\n                                    \n                                https://www.hirslanden.ch/en/corporate/treatments/rezumtherapie.html\n                                \n                                    Rezum steam therapy is an innovative, minimally invasive procedure aimed at treating benign prostate enlargement.\n                                \n                            \n                        \n\n                            \n                                \n                                    \n                                        Range of treatment\n                                    \n                                https://www.hirslanden.ch/en/klinik-im-park/range-of-treatment.html\n                                \n                                    Hirslanden Klinik Im Park offers a broad range of treatments. \n                                \n                            \n                        \n\n                            \n                                \n                                    \n                                        Diagnosis and treatment\n                                    \n                                https://www.hirslanden.ch/en/clinique-des-grangettes/centres-et-instituts/center-digestive-diseases/diagnosis-treatment.html\n                                \n                                    Diagnosis & treatment\n                                \n                            \n                        \n\n                            \n                                \n                                    \n                                        Range of treatments | ortho clinic zurich\n                                    \n                                https://www.hirslanden.ch/en/klinik-im-park/centers/ortho-clinic-zuerich/range-of-treatments.html\n                                \n                                    Many problems can be treated without surgery, i.e. through conservative treatment. If surgical treatment is necessary, nowadays this can normally be arthroscopic or minimally invasive. \n                                \n                            \n                        \n\n                            \n                                \n                                    \n                                        Range of treatments for patients | tumour centre hirslanden zurich\n                                    \n                                https://www.hirslanden.ch/en/klinik-hirslanden/centers/tumour-centre/range-of-treatments.html\n                                \n                                    The Tumour Centre Hirslanden Zurich is a specialist in the field of oncology. We accompany you from diagnosis to aftercare. Find out more.\n                                \n                            \n                        \n\n                            \n                                \n                                    \n                                        Treatment of breast cancer | breast centre bern biel\n                                    \n                                https://www.hirslanden.ch/en/salem-spital/centers/breast-centre/range-of-services/treatment.html\n                                \n                                    The Bern Biel Breast Centre offers numerous treatment options for breast cancer. Find out more. \n                                \n                            \n                        \n\n                            \n                                \n                                    \n                                        Oncology\n                                    \n                                https://www.hirslanden.ch/en/klinik-im-park/range-of-treatment/onkologie.html\n                                \n                                    Find out more about the oncology and the range of treatments of the Hirslanden Klinik Im Park. \n                                \n                            \n                        \n\n                            \n                                \n                                    \n                                        Head medicine\n                                    \n                                https://www.hirslanden.ch/en/klinik-im-park/range-of-treatment/kopf.html\n                                \n                                    Find out more about the head medicine and about the range of treatment of the Hirslanden Klinik Im Park. \n                                \n                            \n                        \n\n                            \n                                \n                                    \n                                        Treatments\n                                    \n                                https://www.hirslanden.ch/en/clinique-des-grangettes/centres-et-instituts/prostate-center/treatments.html\n                                \n                                    We work to offer the patient a personalized treatment of high quality. We explore several treatment options depending on the type of cancer, the stage of the disease and the overall situation of the patient, who is a true partner in the choices that are made.\n                                \n                            \n                        \n\n                            \n                                \n                                    \n                                        Car t-cell therapy at a glance\n                                    \n                                https://www.hirslanden.ch/en/corporate/treatments/car-t-cells.html\n                                \n                                    Find out what is behind the treatment here.\n                                \n                            \n                        \n\n                    \n                \n            \n\n            \n                \n                    \n                        \n                    \n                    Display more\n                \n            \n        \n\n        \n    \n\n\n        \n\n        \n            \n  \n    \n  \n\n\n    \n\n        \n            \n                Doctors 89\n            \n        \n\n        \n        \n\n        \n            \n                \n                \n                \n                \n\n                \n                    \n                        \n                        \n                            \n                                \n  \n    \n      \n        \n  \n    \n        \n            \n                \n                    \n                        \n\n\n\n\n                        \n                    \n                \n            \n\n            \n            \n        \n    \n\n  \n\n      \n      \n        Dr. med. Alex Tanner\n        \n          Specialist in\n          \n            \n              Orthopaedic surgery and traumatology\n              \n              \n            \n          \n        \n        \n        \n          Languages:\n          \n            German, English, French, Spanish\n          \n        \n        \n          Locations:\n          \n            Zürich\n          \n        \n        \n        \n          \n            View Profile\n          \n        \n        \n          \n            \n          \n        \n      \n    \n  \n  \n\n\n                                \n                                \n                            \n                                \n  \n    \n      \n        \n  \n    \n        \n            \n                \n                    \n                        \n\n\n\n\n                        \n                    \n                \n            \n\n            \n            \n        \n    \n\n  \n\n      \n      \n        Docteur Julien Schwartz\n        \n          Specialist in\n          \n            \n              Urology\n              \n                specially: Surgical urology\n              \n              \n            \n          \n        \n        \n        \n          Languages:\n          \n            French, German, English\n          \n        \n        \n          Locations:\n          \n            Lausanne\n          \n        \n        \n        \n          \n            View Profile\n          \n        \n        \n          \n            \n          \n        \n      \n    \n  \n  \n\n\n                                \n                                \n                            \n                                \n  \n    \n      \n        \n  \n    \n        \n            \n                \n                    \n                        \n\n\n\n\n                        \n                    \n                \n            \n\n            \n            \n        \n    \n\n  \n\n      \n      \n        Dr. med. Friederike Christina Remmen\n        \n          Specialist in\n          \n            \n              Surgery\n              \n              \n            \n          \n        \n        \n        \n          Languages:\n          \n            German, English, French\n          \n        \n        \n          Locations:\n          \n            Zürich\n          \n        \n        \n        \n          \n            View Profile\n          \n        \n        \n          \n            \n          \n        \n      \n    \n  \n  \n\n\n                                \n                                \n                            \n                                \n  \n    \n      \n        \n  \n    \n        \n            \n                \n                    \n                        \n\n\n\n\n                        \n                    \n                \n            \n\n            \n            \n        \n    \n\n  \n\n      \n      \n        Prof. Dr. med. Oliver Dudeck\n        \n          Specialist in\n          \n            \n              Radiology\n              \n              \n            \n          \n        \n        \n        \n          Languages:\n          \n            German, English, Spanish, French\n          \n        \n        \n          Locations:\n          \n            Zürich\n          \n        \n        \n        \n          \n            View Profile\n          \n        \n        \n          \n            \n          \n        \n      \n    \n  \n  \n\n\n                                \n                                \n                            \n                                \n  \n    \n      \n        \n  \n    \n        \n            \n                \n                    \n                        \n\n\n\n\n                        \n                    \n                \n            \n\n            \n            \n        \n    \n\n  \n\n      \n      \n        PD Dr. Dr. med. Dennis Rohner\n        \n          Specialist in\n          \n            \n              Oral and maxillofacial surgery\n              \n              \n            \n          \n        \n        \n        \n          Languages:\n          \n            German, English, French, Italian\n          \n        \n        \n          Locations:\n          \n            Aarau\n          \n        \n        \n        \n          \n            View Profile\n          \n        \n        \n          \n            \n          \n        \n      \n    \n  \n  \n\n\n                                \n                                \n                            \n                                \n  \n    \n      \n        \n  \n    \n        \n            \n                \n                    \n                        \n\n\n\n\n                        \n                    \n                \n            \n\n            \n            \n        \n    \n\n  \n\n      \n      \n        Dr. med. Michela Corti\n        \n          Specialist in\n          \n            \n              Dermatology and Venereology\n              \n              \n            \n          \n        \n        \n        \n          Languages:\n          \n            German, Italian, French, English\n          \n        \n        \n          Locations:\n          \n            Zürich\n          \n        \n        \n        \n          \n            View Profile\n          \n        \n        \n          \n            \n          \n        \n      \n    \n  \n  \n\n\n                                \n                                \n                            \n                                \n  \n    \n      \n        \n  \n    \n        \n            \n                \n                    \n                        \n\n\n\n\n                        \n                    \n                \n            \n\n            \n            \n        \n    \n\n  \n\n      \n      \n        Dr. med. Dr. med. dent. Konstantinos Katsoulis\n        \n          Specialist in\n          \n            \n              Oral and maxillofacial surgery\n              \n              \n            \n          \n        \n        \n        \n          Languages:\n          \n            German, French, English, Greek, Italian\n          \n        \n        \n          Locations:\n          \n            Biel/Bienne\n          \n        \n        \n        \n          \n            View Profile\n          \n        \n        \n          \n            \n          \n        \n      \n    \n  \n  \n\n\n                                \n                                \n                            \n                                \n  \n    \n      \n        \n  \n    \n        \n            \n                \n                    \n                        \n\n\n\n\n                        \n                    \n                \n            \n\n            \n            \n        \n    \n\n  \n\n      \n      \n        Dr. med. Borut Banic\n        \n          Specialist in\n          \n            \n              Plastic, Reconstructive and Cosmetic Surgery\n              \n              \n            \n          \n        \n        \n        \n          Languages:\n          \n            German, English, French, Slovenian, Croatian\n          \n        \n        \n          Locations:\n          \n            Bern\n          \n        \n        \n        \n          \n            View Profile\n          \n        \n        \n          \n            \n          \n        \n      \n    \n  \n  \n\n\n                                \n                                \n                            \n                                \n  \n    \n      \n        \n  \n    \n        \n            \n                \n                    \n                        \n\n\n\n\n                        \n                    \n                \n            \n\n            \n            \n        \n    \n\n  \n\n      \n      \n        Dr. med. Nathalie Irla-Vuille\n        \n          Specialist in\n          \n            \n              Dermatology and Venereology\n              \n              \n            \n          \n        \n        \n        \n          Languages:\n          \n            French, English, German\n          \n        \n        \n          Locations:\n          \n            Zug\n          \n        \n        \n        \n          \n            View Profile\n          \n        \n        \n          \n            \n          \n        \n      \n    \n  \n  \n\n\n                                \n                                \n                            \n                                \n  \n    \n      \n        \n  \n    \n        \n            \n                \n                    \n                        \n\n\n\n\n                        \n                    \n                \n            \n\n            \n            \n        \n    \n\n  \n\n      \n      \n        Dr. med. Angelika Donalies\n        \n          Specialist in\n          \n            \n              Gynaecology and Obstetrics\n              \n                specially: Surgical Gynaecology and Obstetrics\n              \n              \n            \n          \n        \n        \n        \n          Languages:\n          \n            German, English, French\n          \n        \n        \n          Locations:\n          \n            Solothurn\n          \n        \n        \n        \n          \n            View Profile\n          \n        \n        \n          \n            \n          \n        \n      \n    \n  \n  \n\n\n                                \n                                \n                            \n                        \n                    \n                    \n                \n            \n\n            \n                \n                    \n                        \n                    \n                    Display more\n                \n            \n        \n\n\n        \n    \n\n  \n\n        \n\n        \n            \n  \n    Service Offerings 171\n  \n  \n    \n      \n        \n          \n            \n  \n    RezumTM therapy (steam treatment)\n    \n  \n\n          \n\n            \n  \n    CAR T-cell therapy\n    \n  \n\n          \n\n            \n  \n    Chemotherapy\n    \n  \n\n          \n\n            \n  \n    ICSI – Artificial Insemination\n    \n  \n\n          \n\n            \n  \n    Radiotherapy \n    \n  \n\n          \n\n            \n  \n    Knee joint imaging\n    \n  \n\n          \n\n            \n  \n    In Vitro Fertilisation (IVF)\n    \n  \n\n          \n\n            \n  \n    Pain therapy\n    \n  \n\n          \n\n            \n  \n    Varicose vein operations\n    \n  \n\n          \n\n            \n  \n    Cardiac arrhythmias\n    \n  \n\n          \n\n        \n      \n    \n\n    \n      \n        \n          \n        \n        Display more\n      \n    \n  \n\n\n\n        \n\n        \n            \n  \n    \n  \n\n\n    \n\n        \n            \n                Hospitals 10\n            \n        \n\n        \n        \n\n        \n            \n                \n                \n                \n                \n\n                \n                    \n                        \n                        \n                            \n                                \n  \n       \n          \n              \n  \n    \n        \n            \n                \n                    \n                        \n\n\n\n\n                        \n                    \n                \n            \n\n            \n            \n        \n    \n\n  \n\n          \n      \n      \n          Clinique des Grangettes\n          \n              \n                  \n                    Chemin des Grangettes 7\n1224 Chêne-Bougeries\n                    \n                    \n                    \n                    \n                  \n              \n              \n                  \n                    \n                        Phone +41 22 305 01 11\n                  \n                  \n                    Phone \n                        \n                        +41 22 305 01 11\n                  \n              \n              \n                  \n                    \n                      Emergency Department +41 22 305 07 77\n                  \n                  \n                        Emergency Department \n                        \n                        +41 22 305 07 77\n                  \n              \n              \n                \n                      View Hospital\n                \n              \n          \n      \n      \n  \n  \n\n\n                                \n                                \n                            \n\n                                \n  \n       \n          \n              \n  \n    \n        \n            \n                \n                    \n                        \n\n\n\n\n                        \n                    \n                \n            \n\n            \n            \n        \n    \n\n  \n\n          \n      \n      \n          Hirslanden Klinik Birshof\n          \n              \n                  \n                    Reinacherstrasse 28\nCH-4142 Münchenstein\n                    \n                    \n                    \n                    \n                  \n              \n              \n                  \n                    \n                        Phone +41 61 335 22 22\n                  \n                  \n                    Phone \n                        \n                        +41 61 335 22 22\n                  \n              \n              \n                  \n                    \n                      Emergency Department +41 61 335 25 75\n                  \n                  \n                        Emergency Department \n                        \n                        +41 61 335 25 75\n                  \n              \n              \n                \n                      View Hospital\n                \n              \n          \n      \n      \n  \n  \n\n\n                                \n                                \n                            \n\n                                \n  \n       \n          \n              \n  \n    \n        \n            \n                \n                    \n                        \n\n\n\n\n                        \n                    \n                \n            \n\n            \n            \n        \n    \n\n  \n\n          \n      \n      \n          Klinik Beau-Site\n          \n              \n                  \n                    Schänzlihalde 11\n3013 Bern\n                    \n                    \n                    \n                    \n                  \n              \n              \n                  \n                    \n                        Phone +41 31 335 33 33\n                  \n                  \n                    Phone \n                        \n                        +41 31 335 33 33\n                  \n              \n              \n                  \n                    \n                      Emergency Department +41 31 335 30 30\n                  \n                  \n                        Emergency Department \n                        \n                        +41 31 335 30 30\n                  \n              \n              \n                \n                      View Hospital\n                \n              \n          \n      \n      \n  \n  \n\n\n                                \n                                \n                            \n\n                                \n  \n       \n          \n              \n  \n    \n        \n            \n                \n                    \n                        \n\n\n\n\n                        \n                    \n                \n            \n\n            \n            \n        \n    \n\n  \n\n          \n      \n      \n          Salem-Spital\n          \n              \n                  \n                    Schänzlistrasse 39\n3013 Bern\n                    \n                    \n                    \n                    \n                  \n              \n              \n                  \n                    \n                        Phone +41 31 337 60 00\n                  \n                  \n                    Phone \n                        \n                        +41 31 337 60 00\n                  \n              \n              \n                  \n                    \n                      Emergency Department +41 31 335 35 35 \n                  \n                  \n                        Emergency Department \n                        \n                        +41 31 335 35 35 \n                  \n              \n              \n                \n                      View Hospital\n                \n              \n          \n      \n      \n  \n  \n\n\n                                \n                                \n                            \n\n                                \n  \n       \n          \n              \n  \n    \n        \n            \n                \n                    \n                        \n\n\n\n\n                        \n                    \n                \n            \n\n            \n            \n        \n    \n\n  \n\n          \n      \n      \n          Hirslanden Klinik Im Park\n          \n              \n                  \n                    \n                    Seestrasse 220\n                    8027 Zurich\n                    \n                    \n                  \n              \n              \n                  \n                    \n                        Phone +41 44 209 21 11\n                  \n                  \n                    Phone \n                        \n                        +41 44 209 21 11\n                  \n              \n              \n                  \n                    \n                      Emergency Department +41 44 209 28 50\n                  \n                  \n                        Emergency Department \n                        \n                        +41 44 209 28 50\n                  \n              \n              \n                \n                      View Hospital\n                \n              \n          \n      \n      \n  \n  \n\n\n                                \n                                \n                            \n\n                                \n  \n       \n          \n              \n  \n    \n        \n            \n                \n                    \n                        \n\n\n\n\n                        \n                    \n                \n            \n\n            \n            \n        \n    \n\n  \n\n          \n      \n      \n          AndreasKlinik Cham Zug\n          \n              \n                  \n                    Rigistrasse 1\n6330 Cham\n                    \n                    \n                    \n                    \n                  \n              \n              \n                  \n                    \n                        Phone +41 41 784 07 84\n                  \n                  \n                    Phone \n                        \n                        +41 41 784 07 84\n                  \n              \n              \n                  \n                    \n                      Emergency Department +41 41 784 0144\n                  \n                  \n                        Emergency Department \n                        \n                        +41 41 784 0144\n                  \n              \n              \n                \n                      View Hospital\n                \n              \n          \n      \n      \n  \n  \n\n\n                                \n                                \n                            \n\n                                \n  \n       \n          \n              \n  \n    \n        \n            \n                \n                    \n                        \n\n\n\n\n                        \n                    \n                \n            \n\n            \n            \n        \n    \n\n  \n\n          \n      \n      \n          Clinique La Colline\n          \n              \n                  \n                    Avenue de Beau-Séjour 6\n1206 Genève\n                    \n                    \n                    \n                    \n                  \n              \n              \n                  \n                    \n                        Phone +41 22 702 20 22\n                  \n                  \n                    Phone \n                        \n                        +41 22 702 20 22\n                  \n              \n              \n                  \n                    \n                      Emergency Department +41 22 702 21 44\n                  \n                  \n                        Emergency Department \n                        \n                        +41 22 702 21 44\n                  \n              \n              \n                \n                      View Hospital\n                \n              \n          \n      \n      \n  \n  \n\n\n                                \n                                \n                            \n\n                                \n  \n       \n          \n              \n  \n    \n        \n            \n                \n                    \n                        \n\n\n\n\n                        \n                    \n                \n            \n\n            \n            \n        \n    \n\n  \n\n          \n      \n      \n          Klinik Hirslanden\n          \n              \n                  \n                    \n                    Witellikerstrasse 40\n                    8032 Zürich\n                    \n                    \n                  \n              \n              \n                  \n                    \n                        Phone +41 44 387 21 11\n                  \n                  \n                    Phone \n                        \n                        +41 44 387 21 11\n                  \n              \n              \n                  \n                    \n                      Emergency Department +41 44 387 35 35\n                  \n                  \n                        Emergency Department \n                        \n                        +41 44 387 35 35\n                  \n              \n              \n                \n                      View Hospital\n                \n              \n          \n      \n      \n  \n  \n\n\n                                \n                                \n                            \n\n                                \n  \n       \n          \n              \n  \n    \n        \n            \n                \n                    \n                        \n\n\n\n\n                        \n                    \n                \n            \n\n            \n            \n        \n    \n\n  \n\n          \n      \n      \n          Hirslanden Klinik Aarau\n          \n              \n                  \n                    Schänisweg\n5001 Aarau\n                    \n                    \n                    \n                    \n                  \n              \n              \n                  \n                    \n                        Phone +41 62 836 70 00\n                  \n                  \n                    Phone \n                        \n                        +41 62 836 70 00\n                  \n              \n              \n                  \n                    \n                      Emergency Department +41 62 836 76 76\n                  \n                  \n                        Emergency Department \n                        \n                        +41 62 836 76 76\n                  \n              \n              \n                \n                      View Hospital\n                \n              \n          \n      \n      \n  \n  \n\n\n                                \n                                \n                            \n\n                                \n  \n       \n          \n              \n  \n    \n        \n            \n                \n                    \n                        \n\n\n\n\n                        \n                    \n                \n            \n\n            \n            \n        \n    \n\n  \n\n          \n      \n      \n          Klinik Stephanshorn\n          \n              \n                  \n                    \n                    Brauerstrasse 95\n                    CH-9016 St.Gallen\n                    \n                    \n                  \n              \n              \n                  \n                    \n                        Phone +41 71 282 71 11\n                  \n                  \n                    Phone \n                        \n                        +41 71 282 71 11\n                  \n              \n              \n                  \n                    \n                      Emergency Department +41 71 282 74 74\n                  \n                  \n                        Emergency Department \n                        \n                        +41 71 282 74 74\n                  \n              \n              \n                \n                      View Hospital\n                \n              \n          \n      \n      \n  \n  \n\n\n                                \n                                \n                            \n\n                        \n                    \n                    \n                \n            \n\n            \n        \n\n\n        \n    \n\n\n        \n\n        \n            \n  \n    \n  \n\n\n    \n\n        \n            \n                Centres 191\n            \n        \n\n        \n            \n    \n        \n            \n                Key word/name\n                \n                \n                \n            \n            \n            \n                \n                    \n    \n        \n        \n        \n            \n                Aarau\n                \n\n                Basle\n                \n\n                Bern\n                \n\n                Biel\n                \n\n                Cham Zug\n                \n\n                Geneva\n                \n\n                Heiden\n                \n\n                Lausanne\n                \n\n                Lucerne\n                \n\n                Meggen\n                \n\n                St Gallen\n                \n\n                Zurich\n                \n\n        \n    \n\n                \n                    \n    \n        \n        \n        \n            \n                Abdominal radiology\n                \n\n                Accident surgery\n                \n\n                Allergology and Immunology\n                \n\n                Anaesthesiology\n                \n\n                Angiology\n                \n\n                Cardiac and thoracic Vascular Surgery\n                \n\n                Cardiac imaging\n                \n\n                Cardiology\n                \n\n                Checkup\n                \n\n                Child and adolescent psychiatry and psychotherapy\n                \n\n                Clinical Emergency Medicine (SGNOR)\n                \n\n                Clinical nutrition\n                \n\n                Clinical pharmacology and toxicology\n                \n\n                Dermatology and Venereology\n                \n\n                Diagnostic neuroradiology\n                \n\n                Early rehabilitation\n                \n\n                Electroencephlography (SGKN)\n                \n\n                Emergency care physician (SGNOR)\n                \n\n                Endocrinology / Diabetology\n                \n\n                Endoscopic retrograde cholangiopancreatography ERCP (SSG)\n                \n\n                Endovenous thermal ablation of varicose saphenous veins (UVSS)\n                \n\n                Expertise in high doses radiological investigations & therapeutic interventions in angiology\n                \n\n                Expertise in high doses radiological investigations & therapeutic interventions in gastroenterology\n                \n\n                Expertise in high doses radiological investigations in cardiology (SGK)\n                \n\n                Expertise in high doses radiology (KHM)\n                \n\n                Gastroenterology\n                \n\n                Gastroscopy (SGG)\n                \n\n                General Internal Medicine\n                \n\n                Geriatrics\n                \n\n                Gynaecological cytology\n                \n\n                Gynaecological Oncology\n                \n\n                Gynaecology\n                \n\n                Gynaecology and Obstetrics\n                \n\n                Haematology\n                \n\n                Hand Surgery\n                \n\n                Head and neck surgery\n                \n\n                Hepatology\n                \n\n                Hip ultrasonography (SGUM)\n                \n\n                Infectology\n                \n\n                Intensive Care\n                \n\n                Interventional Pain Management (SSIPM)\n                \n\n                Interventional radiology\n                \n\n                Lymphology\n                \n\n                Manual medicine (SAMM)\n                \n\n                Medical analysis laboratory FAMH\n                \n\n                Medical Oncology\n                \n\n                Medical practice laboratory (KHM)\n                \n\n                Molecular pathology\n                \n\n                Musculoskeletal radiology\n                \n\n                Médecine d’urgence hospitalière (SSMUS)\n                \n\n                Médecine interne générale\n                \n\n                Nephrology\n                \n\n                Neuro-urology\n                \n\n                Neurology\n                \n\n                Neurosurgery\n                \n\n                Nuclear Medicine\n                \n\n                Ophthalmology\n                \n\n                Oral and maxillofacial surgery\n                \n\n                Oral surgery (FOPH)\n                \n\n                Orthopaedic surgery and traumatology\n                \n\n                Osteology\n                \n\n                Osteopathy\n                \n\n                Otorhinolaryngology\n                \n\n                Paediatric and foetal echocardiography\n                \n\n                Paediatric cardiac intensive care\n                \n\n                Paediatric cardiology\n                \n\n                Paediatric emergency medicine\n                \n\n                Paediatric gastroenterology and hepatology\n                \n\n                Paediatric Sonography\n                \n\n                Pain specialist (SGSS)\n                \n\n                Palliative medicine\n                \n\n                Pathology\n                \n\n                Pediatrics\n                \n\n                Pelviperineology\n                \n\n                Phlebology (USGG)\n                \n\n                Phoniatrics\n                \n\n                Physical Medicine and Rehabilitation\n                \n\n                Phytotherapy (SMSP)\n                \n\n                Plastic, Reconstructive and Cosmetic Surgery\n                \n\n                Pneumology\n                \n\n                Point of Care Ultrasound POCUS (SGUM)\n                \n\n                Prevention and public health\n                \n\n                Proctology\n                \n\n                Radio-oncology / radiotherapy\n                \n\n                Radiology\n                \n\n                Rheumatology\n                \n\n                Rhythmology\n                \n\n                Senology / Breast medicine\n                \n\n                Sleep Medicine\n                \n\n                Spine Surgery\n                \n\n                Sports medicine (SEMS)\n                \n\n                Surgery\n                \n\n                Surgical Gynaecology and Obstetrics\n                \n\n                Surgical urology\n                \n\n                Thoracic Surgery\n                \n\n                Traumatology Specialist\n                \n\n                Ultrasonography (SGUM)\n                \n\n                Urology\n                \n\n                Vascular Surgery\n                \n\n                Visceral Surgery\n                \n\n        \n    \n\n                \n            \n            \n\n            \n                Apply\n            \n            \n\n        \n        \n        \n            \n                \n            \n        \n    \n\n        \n        \n\n        \n            \n                \n                \n                \n                \n\n                \n                    \n                        \n                        \n                            \n                                \n  \n    Breast Centre Bern Biel - Location Bern\n    \n      \n        \n          House Blumenberg, Entrance west\n          Schänzlistrasse 33\n          3013 Bern\n          \n          \n        \n      \n        \n          T +41 31 337 89 70\n      \n        \n      \n        e-mail\n      \n    \n    \n  \n  \n\n\n                                \n                                \n                            \n\n                                \n  \n    Breast Centre Bern Biel - Location Biel\n    \n      \n        \n          Hirslanden Klinik Linde\n          Blumenrain 105\n          2501 Biel\n          \n          \n        \n      \n        \n          T +41 31 366 42 60\n      \n        \n      \n        e-mail\n      \n    \n    \n  \n  \n\n\n                                \n                                \n                            \n\n                                \n  \n    Gefässpraxis Dr. G. Sauvant\n    \n      \n        \n          \n          Kappelistrasse 7\n          8002 Zürich\n          \n          \n        \n      \n        \n          T +41 44 483 08 80\n      \n        \n      \n        e-mail\n      \n    \n    \n      \n        \n        \nConsultation hours by appointment, also possible at off-peak times.\n\nAvailable by telephone Monday to Friday from 09.00-11.00 h and 14.00-16.00 h\n      \n    \n  \n  \n\n\n                                \n                                \n                            \n\n                                \n  \n    Breast Centre Zürichsee\n    \n      \n        \n          Location at Klinik Im Park\nSeestrasse 220\n8027 Zürich\n\nAvailability by telephone:\nMon-Fri: 9.00-12.00 am and 1.00-4.00 pm \n          \n          \n          \n          \n        \n      \n        \n          T +41 44 209 22 22\n      \n        \n      \n        e-mail\n      \n    \n    \n  \n  \n\n\n                                \n                                \n                            \n\n                                \n  \n    Unit of General Internal Medicine\n    \n      \n        \n          Witellikerstrasse 40\n8032 Zürich\n          \n          \n          \n          \n        \n      \n        \n          T +41 44 387 20 60\n      \n        \n          F  +41 44 387 20 69\n      \n      \n        e-mail\n      \n    \n    \n  \n  \n\n\n                                \n                                \n                            \n\n                                \n  \n    Pain Center\n    \n      \n        \n          Schänzlistrasse 39\n3013 Bern\n          \n          \n          \n          \n        \n      \n        \n          T +41 31 337 80 80\n      \n        \n          F  +41 31 337 80 81\n      \n      \n        e-mail\n      \n    \n    \n  \n  \n\n\n                                \n                                \n                            \n\n                                \n  \n    Stroke Center Hirslanden\n    \n      \n        \n          (Emergency)\nWitellikerstrasse 40\n8032 Zürich\n\nDirect dial 24-hour emergency centre\n(also for emergency doctors / primary care providers / referring doctors / paramedics / partner hospitals)\n\n          \n          \n          \n          \n        \n      \n        \n          T +41 44 387 35 35\n      \n        \n      \n    \n    \n  \n  \n\n\n                                \n                                \n                            \n\n                                \n  \n    Stroke Center Hirslanden (Contact)\n    \n      \n        \n          Witellikerstrasse 40\n8032 Zürich\n          \n          \n          \n          \n        \n      \n        \n          T +41 44 387 39 93\n      \n        \n          F  +41 44 387 39 96\n      \n      \n        e-mail\n      \n    \n    \n  \n  \n\n\n                                \n                                \n                            \n\n                                \n  \n    Centre de la prostate Lausanne - Clinique Cecil\n    \n      \n        \n          Hirslanden Clinique Cecil\nAvenue Ruchonnet 53\n1003 Lausanne\n\n\n          \n          \n          \n          \n        \n      \n        \n          T +41 21 310 52 20 \n      \n        \n      \n    \n    \n  \n  \n\n\n                                \n                                \n                            \n\n                                \n  \n    Centre de la prostate Lausanne - Clinique Bois-Cerf\n    \n      \n        \n          Hirslanden Clinique Bois-Cerf\nAvenue d'Ouchy 31\n1006 Lausanne\n\n\n          \n          \n          \n          \n        \n      \n        \n          T +41 21 310 52 20 \n      \n        \n      \n    \n    \n  \n  \n\n\n                                \n                                \n                            \n\n                                \n  \n    Physiotherapy and sports physiotherapy\n    \n      \n        \n          Reinacherstrasse 28\n4142 Münchenstein\n          \n          \n          \n          \n        \n      \n        \n          T 41 61 335 22 22\n      \n        \n          F  41 61 335 22 05\n      \n      \n        e-mail\n      \n    \n    \n  \n  \n\n\n                                \n                                \n                            \n\n                                \n  \n    Kidney Stone Center Zurich (Nephrology)\n    \n      \n        \n          \n          Bellariastrasse 38\n          8027 Zurich\n          \n          \n        \n      \n        \n          T +41 44 209 25 30\n      \n        \n      \n    \n    \n  \n  \n\n\n                                \n                                \n                            \n\n                                \n  \n    Kidney Stone Center Zurich (Urology)\n    \n      \n        \n          \n          Seestrasse 129\n          8027 Zurich\n          \n          \n        \n      \n        \n          T +41 44 480 07 60\n      \n        \n      \n    \n    \n  \n  \n\n\n                                \n                                \n                            \n\n                                \n  \n    Breast center\n    \n      \n        \n          Hirslanden Clinique des Grangettes\n \n           Chemin des Grangettes 7 \n           1224  Chêne-Bougeries\n          \n          \n        \n      \n        \n          T 0800 33 11 00\n      \n        \n      \n        e-mail\n      \n    \n    \n      \n        \n        Monday to Friday: 9 a.m. to 5 p.m.\n      \n    \n  \n  \n\n\n                                \n                                \n                            \n\n                        \n                    \n                    \n                \n            \n\n            \n                \n                    \n                        \n                    \n                    Display more\n                \n            \n        \n\n\n        \n    \n\n  \n  \n\n        \n\n        \n            \n  \n\n\n        \n\n        \n            \n        \n    \n  \n\n\n    \n\n        \n            \n                Events 4\n            \n        \n\n        \n        \n\n        \n            \n                \n                \n                    \n                        \n                            \n                            \n                                \n                                \n  \n    \n      \n        05\n        Sep.\n      \n      \n\n        \n          \n            \n              Zurich\n            \n            \n              | Hirslanden Klinik Im Park\n            \n          \n          \n          further dates available\n          \n          \n          \n        \n        Information event for expectant parents\n      \n      \n        \n          \n  \n    \n        \n            \n                \n                    \n                        \n\n\n\n\n                        \n                    \n                \n            \n\n            \n            \n        \n    \n\n  \n\n        \n        \n      \n    \n  \n\n\n                            \n\n                                \n                                \n  \n    \n      \n        21\n        Sep.\n      \n      \n\n        \n          \n            \n              Zurich\n            \n            \n              | Hirslanden Klinik Im Park\n            \n          \n          \n          further dates available\n          \n          \n          \n        \n        Intensive antenatal course for couples\n      \n      \n        \n          \n  \n    \n        \n            \n                \n                    \n                        \n\n\n\n\n                        \n                    \n                \n            \n\n            \n            \n        \n    \n\n  \n\n        \n        \n      \n    \n  \n\n\n                            \n\n                                \n                                \n  \n    \n      \n      \n\n        \n          \n            \n              Geneva\n            \n            \n              | Clinique des Grangettes\n            \n          \n          \n          \n          \n          Dates on request\n          \n        \n        Kobido Care\n      \n      \n        \n          \n  \n    \n        \n            \n                \n                    \n                        \n\n\n\n\n                        \n                    \n                \n            \n\n            \n            \n        \n    \n\n  \n\n        \n        \n      \n    \n  \n\n\n                            \n\n                                \n                                \n  \n    \n      \n      \n\n        \n          \n            \n              Zurich\n            \n            \n              | Hirslanden Klinik Im Park\n            \n          \n          \n          \n          \n          Dates on request\n          \n        \n        Rectus Diastasis Therapy\n      \n      \n        \n          \n  \n    \n        \n            \n                \n                    \n                        \n\n\n\n\n                        \n                    \n                \n            \n\n            \n            \n        \n    \n\n  \n\n        \n        \n      \n    \n  \n\n\n                            \n\n                        \n                    \n                \n                \n                \n\n                \n            \n\n            \n        \n\n\n        \n    \n\n\n        \n\n        \n            \n        \n    \n  \n\n\n    \n\n        \n            \n                News 97\n            \n        \n\n        \n        \n\n        \n            \n                \n                \n                \n                \n\n                \n                    \n                        \n                        \n                            \n                                \n  \n    \n        \n            \n                \n                    Press release\n                    \n                    \n                        11.05.2022\n                    \n                    Collaboration thoracic surgery\n                    \n                    Hirslanden Group\n                \n            \n        \n    \n\n\n                                \n                                \n                            \n\n                                \n  \n    \n        \n            \n                \n                    Press release\n                    \n                    \n                        30.10.2019\n                    \n                    Cooperation between KSBL and Klinik Birshof\n                    \n                    Hirslanden Group\n                \n            \n        \n    \n\n\n                                \n                                \n                            \n\n                                \n  \n    \n        \n            \n                \n                    Press release\n                    \n                    \n                        17.03.2022\n                    \n                    Organisational changes at Hirslanden Bern\n                    \n                    Hirslanden Group\n                \n            \n        \n    \n\n\n                                \n                                \n                            \n\n                                \n  \n    \n        \n            \n                \n                    Press release\n                    \n                    \n                        27.01.2022\n                    \n                    Medbase, Hirslanden, Groupe Mutuel, Helsana, and SWICA launch a joint healthcare ecosystem\n                    \n                    Hirslanden Group\n                \n            \n        \n    \n\n\n                                \n                                \n                            \n\n                                \n  \n    \n        \n            \n                \n                    Press release\n                    \n                    \n                        25.02.2021\n                    \n                    Outpatient surgical centre «OPERA Baselland» under the public private partnership between Kantonsspital Baselland and Hirslanden Klinik Birshof\n                    \n                    Hirslanden Group\n                \n            \n        \n    \n\n\n                                \n                                \n                            \n\n                                \n  \n    \n        \n            \n                \n                    Press release\n                    \n                    \n                        11.09.2019\n                    \n                    Hirslanden extends integrated range of medical services on offer in eastern Switzerland\n                    \n                    Hirslanden Group\n                \n            \n        \n    \n\n\n                                \n                                \n                            \n\n                                \n  \n    \n        \n            \n                \n                    Press release\n                    \n                    \n                        07.05.2024\n                    \n                    Hirslanden reaches agreement with CSS\n                    \n                    Hirslanden Group\n                \n            \n        \n    \n\n\n                                \n                                \n                            \n\n                                \n  \n    \n        \n            \n                \n                    Press release\n                    \n                    \n                        08.09.2021\n                    \n                    Mujinga Kambundji and Hirslanden extend their partnership \n                    \n                    Hirslanden Group\n                \n            \n        \n    \n\n\n                                \n                                \n                            \n\n                                \n  \n    \n        \n            \n                \n                    Press release\n                    \n                    \n                        25.03.2021\n                    \n                    Covid-19: Canton of Schwyz tasks Hirslanden with implenting repeat testing\n                    \n                    Hirslanden Group\n                \n            \n        \n    \n\n\n                                \n                                \n                            \n\n                                \n  \n    \n        \n            \n                \n                    Press release\n                    \n                    \n                        28.06.2018\n                    \n                    Pioneering cardiac surgery cooperation gets under way\n                    \n                    Hirslanden Group\n                \n            \n        \n    \n\n\n                                \n                                \n                            \n\n                        \n                    \n                    \n                \n            \n\n            \n                \n                    \n                        \n                    \n                    Display more\n                \n            \n        \n\n\n        \n    \n\n\n        \n\n        \n            \n    \n        Medical Knowledge 186\n    \n    \n        \n            \n                \n                    \n                        \n  \n    New treatment options for prostate cancer thanks to genetic medicine: “We're just starting out on a long, exciting journey”\n    \n  \n\n                    \n\n                        \n  \n    Prostate cancer\n    \n  \n\n                    \n\n                        \n  \n    Multiple sclerosis\n    \n  \n\n                    \n\n                        \n  \n    Hallux valgus\n    \n  \n\n                    \n\n                        \n  \n    Carpal tunnel syndrome\n    \n  \n\n                    \n\n                        \n  \n    Cervical cancer\n    \n  \n\n                    \n\n                        \n  \n    Testicular cancer\n    \n  \n\n                    \n\n                        \n  \n    Non-melanoma skin cancer\n    \n  \n\n                    \n\n                        \n  \n    Melanoma\n    \n  \n\n                    \n\n                        \n  \n    Chronic pain - Symptoms & Treatment\n    \n  \n\n                    \n\n                \n            \n        \n\n        \n            \n                \n                    \n                \n                Display more\n            \n        \n    \n\n\n\n        \n\n        \n            No results were found\n        \n        \n\n    "
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 14,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "\"after each\" hook",
+      "time" : {
+        "start" : 1721758427850,
+        "stop" : 1721758427851,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 68,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Search engine on the Mediclinic website"
+  }, {
+    "name" : "feature",
+    "value" : "Search engine on the Mediclinic website"
+  }, {
+    "name" : "tag",
+    "value" : "duckduckgo"
+  }, {
+    "name" : "tag",
+    "value" : "duckduckgo"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "duckduckgo" ]
+  },
+  "source" : "ff16a76e6b0ea2d7.json",
+  "parameterValues" : [ ]
+}
